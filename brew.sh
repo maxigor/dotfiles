@@ -54,18 +54,24 @@ brew install brew-cask
 brew tap caskroom/versions
 
 # Install useful applications
-brew cask install atom
 brew cask install dropbox
+brew cask install copy
 brew cask install firefox
 brew cask install google-chrome
+brew cask install google-chrome-canary
 brew cask install opera
 brew cask install caffeine
-brew cask install spotify
+brew cask install alfred
 brew cask install sublime-text3
+brew cask install atom
 brew cask install virtualbox
 brew cask install vlc
 brew cask install skype
 brew cask install spotify
+brew cask install spectacle
+brew cask install xtrafinder
+brew cask install evernote
+brew cask install slack
 
 # Install font tools.
 brew tap bramstein/webfonttools
