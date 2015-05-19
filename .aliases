@@ -13,10 +13,15 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias speedtest="speedtest_cli"
-alias broader="cd ~/Work/broader3/public/"
+alias cask='brew cask'
 alias g="git"
 alias h="history"
-alias j="jobs"
+alias w="cd ~/Work"
+
+alias broader="cd ~/Work/broader3/public/"
+
+alias rm="rm -i"
+
 
 # be nice
 alias please=sudo
