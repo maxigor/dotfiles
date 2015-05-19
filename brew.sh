@@ -48,6 +48,25 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install homebrew/php/php55 --with-gmp
 
+# Install homebrew CASK
+brew tap caskroom/cask
+brew install brew-cask
+brew tap caskroom/versions
+
+# Install useful applications
+brew cask install atom
+brew cask install dropbox
+brew cask install firefox
+brew cask install google-chrome
+brew cask install opera
+brew cask install caffeine
+brew cask install spotify
+brew cask install sublime-text3
+brew cask install virtualbox
+brew cask install vlc
+brew cask install skype
+brew cask install spotify
+
 # Install font tools.
 brew tap bramstein/webfonttools
 brew install sfnt2woff
