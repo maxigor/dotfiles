@@ -18,7 +18,7 @@ alias g="git"
 alias h="history"
 alias w="cd ~/Work"
 
-alias broader="cd ~/Work/broader3/public/"
+alias broader="cd ~/Work/broader3/"
 
 alias rm="rm -i"
 
