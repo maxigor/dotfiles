@@ -11,14 +11,12 @@ alias d="cd /Volumes/Files/Dropbox"
 alias copy="cd /Volumes/Files/Copy"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias p="cd ~/Projects"
 alias speedtest="speedtest_cli"
 alias cask='brew cask'
 alias g="git"
 alias h="history"
 alias w="cd ~/Work"
-
-alias broader="cd ~/Work/broader3/"
 
 alias rm="rm -i"
 
