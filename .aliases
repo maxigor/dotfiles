@@ -17,6 +17,7 @@ alias cask='brew cask'
 alias g="git"
 alias h="history"
 alias w="cd ~/Work"
+alias keys="cd ~/Keys"
 
 alias rm="rm -i"
 
