@@ -1,4 +1,4 @@
-# Maxigor's dotfiles
+# Max's dotfiles
 
 ## Installation
 
@@ -61,5 +61,5 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 
 
 ## Author
-| [Mathias Bynens *_*](https://mathiasbynens.be/) |
+[Mathias Bynens <3](https://mathiasbynens.be/) 
 

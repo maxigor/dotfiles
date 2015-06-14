@@ -11,11 +11,16 @@ alias d="cd /Volumes/Files/Dropbox"
 alias copy="cd /Volumes/Files/Copy"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias p="cd ~/Projects"
 alias speedtest="speedtest_cli"
+alias cask='brew cask'
 alias g="git"
 alias h="history"
-alias j="jobs"
+alias w="cd ~/Work"
+alias keys="cd ~/Keys"
+
+alias rm="rm -i"
+
 
 # be nice
 alias please=sudo
