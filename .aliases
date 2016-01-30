@@ -9,6 +9,8 @@ alias -- -="cd -"
 # Shortcuts
 alias d="cd /Volumes/Files/Dropbox"
 alias copy="cd /Volumes/Files/Copy"
+alias estudo="cd /Volumes/Files/Copy/Estudo"
+
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
