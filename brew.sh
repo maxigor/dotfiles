@@ -113,6 +113,7 @@ brew cask install opera
 
 brew cask install caffeine
 brew cask install appcleaner
+brew cask install gas-mask
 
 brew cask install sublime-text
 # brew cask install atom
