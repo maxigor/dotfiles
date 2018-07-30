@@ -22,7 +22,7 @@ alias h="history"
 alias w=cd /Volumes/Cherno Alpha/Work Work Work"
 alias rm="rm -i"
 
-#disk space report
+# Disk Space Report
 alias diskspace="df -P -kHl"
 
 
