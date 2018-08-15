@@ -7,19 +7,19 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Volumes/Files/Dropbox"
-alias av="cd ~/Volumes/Cherno Alpha/Audiovisual"
+alias d="cd /Volumes/Files/Dropbox"
+alias av="cd /Volumes/Cherno\ Alpha/Audiovisual"
 
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/Volumes/Cherno Alpha/Projects"
+alias p="cd /Volumes/Cherno\ Alpha/Projetos"
 alias speedtest="speedtest-cli"
 alias cask='brew cask'
 alias g="git"
 alias v="vim"
 alias unzip="gunzip -k"
 alias h="history"
-alias w="cd ~/Volumes/Cherno\ Alpha/Work\ Work\ Work/"
+alias w="cd /Volumes/Cherno\ Alpha/Work\ Work\ Work"
 alias rm="rm -i"
 
 # Disk Space Report
