@@ -20,7 +20,7 @@ alias v="vim"
 alias unzip="gunzip -k"
 alias h="history"
 alias w="cd /Volumes/Cherno\ Alpha/Work\ Work\ Work"
-alias rm="rm -i"
+alias rm="rm -r"
 
 # Disk Space Report
 alias diskspace="df -P -kHl"
