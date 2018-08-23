@@ -25,6 +25,8 @@ alias rm="rm -r"
 # Disk Space Report
 alias diskspace="df -P -kHl"
 
+# Sublime <3 <3
+alias sbl="open -a /Applications/Sublime\ Text.app"
 
 # be nice
 alias please=sudo
