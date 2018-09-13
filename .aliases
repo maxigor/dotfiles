@@ -54,7 +54,7 @@ alias la="ls -l | awk '
 }'"
 
 # List only directories
-alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
+alias lsd="l -a"
 
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
