@@ -136,6 +136,7 @@ brew cask install thunderbird
 brew cask install spectacle
 brew cask install evernote
 brew cask install windscribe
+brew cask install imageoptim
 
 # Remove outdated versions from the cellar.
 brew cleanup
