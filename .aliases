@@ -8,7 +8,6 @@ alias -- -="cd -"
 
 # Shortcuts
 alias d="cd /Volumes/Files/Dropbox"
-alias av="cd /Volumes/Cherno\ Alpha/Audiovisual"
 
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
@@ -19,7 +18,6 @@ alias g="git"
 alias v="vim"
 alias unzip="gunzip -k"
 alias h="history"
-alias w="cd /Volumes/Cherno\ Alpha/Work\ Work\ Work"
 alias rm="rm -r"
 
 # Disk Space Report
@@ -30,6 +28,7 @@ alias sbl="open -a /Applications/Sublime\ Text.app"
 
 # be nice
 alias please=sudo
+alias pls=sudo
 alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;)
 
 # Detect which `ls` flavor is in use

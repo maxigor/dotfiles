@@ -120,7 +120,7 @@ brew cask install cheatheet
 brew cask install hyperswitch
 
 brew cask install sublime-text
-# brew cask install atom
+brew cask install atom
 # brew install mysql
 # brew cask install mysqlworkbench
 
@@ -129,7 +129,6 @@ brew cask install virtualbox
 brew cask install vagrant
 brew cask install vlc
 
-# brew cask install skype
 brew cask install discord
 brew cask install spotify
 brew cask install thunderbird
