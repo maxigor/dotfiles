@@ -10,10 +10,7 @@ alias -- -="cd -"
 
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-<<<<<<< HEAD
 alias p="cd /Volumes/Cherno\ Alpha/"
-=======
->>>>>>> 954984a4d58e31b4249d9dad99d0b6318335ca55
 alias speedtest="speedtest-cli"
 alias cask='brew cask'
 alias g="git"
