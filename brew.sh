@@ -97,7 +97,7 @@ brew install pigz    #-> A parallel implementation of gzip for modern multi-proc
 brew install pv    #-> monitor the progress of data through a pipeline between any two processes, giving a progress bar, ETA, etc.
 brew install rename    #-> renames files according to modification rules specified on the command line
 brew install rhino    #-> javascript on the server side
-brew install speedtest_cli    #-> testing internet bandwidth using speedtest.net
+brew install speedtest-cli    #-> testing internet bandwidth using speedtest.net
 brew install ssh-copy-id    #-> script that uses ssh to  log  into  a  remote  machine
 brew install tree    #-> recursive directory listing command that produces a depth indented listing of files
 brew install webkit2png    #-> creates screenshots of webpages
@@ -120,7 +120,7 @@ brew cask install cheatheet
 brew cask install hyperswitch
 
 brew cask install sublime-text
-# brew cask install atom
+brew cask install atom
 # brew install mysql
 # brew cask install mysqlworkbench
 
@@ -129,7 +129,6 @@ brew cask install virtualbox
 brew cask install vagrant
 brew cask install vlc
 
-# brew cask install skype
 brew cask install discord
 brew cask install spotify
 brew cask install thunderbird

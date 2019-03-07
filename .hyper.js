@@ -137,7 +137,11 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
+<<<<<<< HEAD
   plugins: ["hyperpower"],
+=======
+  plugins: ["hyperpower", ],
+>>>>>>> 954984a4d58e31b4249d9dad99d0b6318335ca55
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
