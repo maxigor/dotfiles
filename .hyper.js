@@ -141,8 +141,7 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     "hyperpower",
-    "hyperline",
-    "hyper-command-gifs",
+    "hyperline", // useful system information such as free memory
     "space-pull",
     "hyper-altair",
     "hyper-opacity",
