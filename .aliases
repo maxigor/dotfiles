@@ -13,6 +13,7 @@ alias dt="cd ~/Desktop"
 alias p="cd /Volumes/Cherno\ Alpha/"
 alias speedtest="speedtest-cli"
 alias cask='brew cask'
+alias search='brew search'
 alias g="git"
 alias v="vim"
 alias unzip="gunzip -k"
