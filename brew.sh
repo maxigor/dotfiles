@@ -112,7 +112,7 @@ brew cask install opera
 
 brew cask install alfred
 brew cask install keepingyouawake
-brew cask install appcleaner
+#brew cask install appcleaner
 brew cask install gas-mask
 brew cask install flux
 brew cask install hyperswitch
@@ -131,8 +131,8 @@ brew cask install spotify
 brew cask install thunderbird
 brew cask install spectacle
 brew cask install evernote
-brew cask install windscribe
-brew cask install imageoptim
+brew cask install nordvpn
+#brew cask install imageoptim
 
 # Remove outdated versions from the cellar.
 brew cleanup
