@@ -9,16 +9,16 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 13,
+    fontSize: 14,
 
     // font family with optional fallbacks
     fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
-    fontWeight: 'normal',
+    fontWeight: 'bold',
 
     // font weight for bold characters: 'normal' or 'bold'
-    fontWeightBold: 'normal',
+    fontWeightBold: 'bold',
 
     // line height as a relative unit
     lineHeight: 1,
@@ -145,6 +145,10 @@ module.exports = {
     "hyper-command-gifs",
     "space-pull",
     "hyper-altair",
+    "hyper-opacity",
+    "hyper-search",
+    "hyper-letters",
+    "gitrocket"
   ],
 
   // in development, you can create a directory under
