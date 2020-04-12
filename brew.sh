@@ -122,7 +122,6 @@ brew cask install atom
 # brew install mysql
 # brew cask install mysqlworkbench
 
-brew cask install mounty
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vlc
