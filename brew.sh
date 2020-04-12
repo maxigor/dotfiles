@@ -108,7 +108,6 @@ brew install android-platform-tools
 # Install useful applications
 brew cask install firefox
 brew cask install google-chrome
-brew cask install google-chrome-canary
 brew cask install opera
 
 brew cask install alfred
@@ -116,7 +115,6 @@ brew cask install keepingyouawake
 brew cask install appcleaner
 brew cask install gas-mask
 brew cask install flux
-brew cask install cheatheet
 brew cask install hyperswitch
 
 brew cask install sublime-text
