@@ -19,7 +19,7 @@ alias v="vim"
 alias unzip="gunzip -k"
 alias h="history"
 alias rm="rm -r"
-
+a
 # Disk Space Report
 alias diskspace="df -P -kHl"
 
