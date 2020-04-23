@@ -76,7 +76,7 @@
 # [url "git@gist.github.com:"]
 # 	pushInsteadOf = "gist:"
 # 	pushInsteadOf = "git://gist.github.com/"
-	
+
 # [url "git://gist.github.com/"]
 # 	insteadOf = "gist:"
 
@@ -110,7 +110,7 @@
     # https://blog.github.com/2018-04-05-git-217-released/
     colorMoved = zebra
 [remote "origin"]
-	fetch = +refs/heads/*:refs/remotes/origin/*
+	#fetch = +refs/heads/*:refs/remotes/origin/*
 [stash]
 	showPatch = true
 [log]
