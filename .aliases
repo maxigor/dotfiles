@@ -19,12 +19,15 @@ alias v="vim"
 alias unzip="gunzip -k"
 alias h="history"
 alias rm="rm -r"
-a
+
 # Disk Space Report
 alias diskspace="df -P -kHl"
 
 # Sublime <3 <3
 alias sbl="open -a /Applications/Sublime\ Text.app"
+
+#Anaconda
+alias jpt="jupyter notebook"
 
 # be nice
 alias please=sudo

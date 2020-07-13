@@ -133,6 +133,8 @@ brew cask install spectacle
 brew cask install evernote
 brew cask install nordvpn
 #brew cask install imageoptim
+brew cask install anaconda
+brew cask install slack
 
 # Remove outdated versions from the cellar.
 brew cleanup
