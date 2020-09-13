@@ -44,6 +44,10 @@ brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
 brew install screen
+brew install php
+brew install gmpbrew install grep
+brew install openssh
+brew install screen
 brew install homebrew/php/php56 --with-gmp
 
 # Install homebrew CASK
@@ -68,11 +72,11 @@ brew install aircrack-ng    #-> 802.11 WEP and WPA-PSK keys cracking program tha
 #brew install fcrackzip   #-> FCrackZip is a free and fast zip password cracker
 #brew install foremost   #-> console program to recover files based on their headers, footers, and internal data structures.
 #brew install hashpump    #-> A tool to exploit the hash length extension attack in various hashing algorithms
-#brew install hydra     #- > A very fast network logon cracker which support many different services.
+brew install hydra     #- > A very fast network logon cracker which support many different services.
 #brew install john   #-> An implementation of one of the modern password hashes found in John is also available separately for use in your software or on your servers.
 #brew install knock  #-> is the accompanying port-knock client, though telnet or netcat could be used for simple TCP knocks instead.
 #brew install netpbm  #-> a toolkit for manipulation of graphic images, including conversion of images between a variety of different formats.
-#brew install nmap    #-> a security scanner used to discover hosts and services on a computer network, thus creating a "map" of the network.
+brew install nmap    #-> a security scanner used to discover hosts and services on a computer network, thus creating a "map" of the network.
 #brew install pngcheck #-> verifies the integrity of PNG, JNG and MNG files.
 #brew install socat   #-> a relay for bidirectional data transfer between two independent data channels.
 #brew install sqlmap   #-> an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
@@ -89,6 +93,7 @@ brew install node    #-> This installs `npm` too using the recommended installat
 #brew install exiv2    #-> C++ library and a command line utility to manage image metadata
 brew install git    #-> free and open source distributed version control system
 brew install git-lfs    #-> managing large files with Git.
+brew install gs
 brew install imagemagick --with-webp    #-> software suite to create, edit, compose, or convert bitmap images
 brew install lua    #-> powerful, fast, lightweight, embeddable scripting language.
 brew install lynx    #-> Lynx is the text web browser.
@@ -100,17 +105,23 @@ brew install rhino    #-> javascript on the server side
 brew install speedtest-cli    #-> testing internet bandwidth using speedtest.net
 brew install ssh-copy-id    #-> script that uses ssh to  log  into  a  remote  machine
 brew install tree    #-> recursive directory listing command that produces a depth indented listing of files
+brew install vbindiff
 brew install webkit2png    #-> creates screenshots of webpages
 # brew install zopfli   #->compression library programmed in C to perform very good, but slow, deflate or zlib compression.
 brew install ffmpeg --with-libvpx    #-> cross-platform solution to record, convert and stream audio and video
-brew install android-platform-tools
+#brew install android-platform-tools
+brew install zopfli
+
 
 # Install useful applications
+
 brew cask install firefox
 brew cask install google-chrome
-brew cask install opera
+# brew cask install opera
+brew cask install chromium
+brew cask install tor-browser
 
-brew cask install alfred
+# brew cask install alfred
 brew cask install keepingyouawake
 #brew cask install appcleaner
 brew cask install gas-mask
@@ -119,22 +130,28 @@ brew cask install hyperswitch
 
 brew cask install sublime-text
 brew cask install atom
+
+brew cask install anaconda
+brew cask install virtualbox
+brew cask install vagrant
 # brew install mysql
 # brew cask install mysqlworkbench
 
-brew cask install virtualbox
-brew cask install vagrant
+brew cask install veracrypt
 brew cask install vlc
 
+brew cask install slack
 brew cask install discord
+brew cask install signal
+
 brew cask install spotify
 brew cask install thunderbird
 brew cask install spectacle
-brew cask install evernote
 brew cask install nordvpn
+brew cask install keepassxc
+brew cask install deluge
 brew cask install imageoptim
-brew cask install anaconda
-brew cask install slack
+# brew cask install evernote
 
 # Remove outdated versions from the cellar.
 brew cleanup
