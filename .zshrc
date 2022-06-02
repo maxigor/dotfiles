@@ -22,6 +22,7 @@ alias h="history"
 alias rm="rm -r"
 alias code="cd /run/media/max/Striker\ Eurka/Coding/"
 
+alias ww="xprop | grep WM_CLASS"
 # Disk Space Report
 alias diskspace="df -P -kHl"
 
