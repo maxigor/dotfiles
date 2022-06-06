@@ -50,6 +50,7 @@ PKGS=(
     'zsh'                   # ZSH shell
     'zsh-completions'       # Tab completion for ZSH
     'starship'              # Customizable prompt
+    'github-cli'            # github cli helper
 
     # DISK UTILITIES ------------------------------------------------------
 

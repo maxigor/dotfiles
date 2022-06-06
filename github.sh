@@ -12,8 +12,10 @@ echo "INSTALLING SOFTWARE FROM GITHUB"
 echo
 
 
-git clone https://github.com/maxigor/feedback.git
-cd feedback
+git clone --recurse-submodules https://github.com/nullgemm/ly
 
+cd /ly
+
+make
 
 
