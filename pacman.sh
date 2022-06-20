@@ -17,6 +17,7 @@ PKGS=(
 
     'linux-lts'             # Long term support kernel
     'base-devel'            # important
+    'nautilus'              # file manager
 
     # TERMINAL UTILITIES --------------------------------------------------
 
