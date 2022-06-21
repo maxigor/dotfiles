@@ -21,12 +21,13 @@ echo
 echo "INSTALLING AUR SOFTWARE"
 echo
 
+cd "${HOME}"
 
 echo "CLONING: PARU"
 
-cd ${HOME}/Download
 git clone https://aur.archlinux.org/paru.git
-cd {$HOME}/Downloads/paru
+
+cd {$HOME}/paru
 makepkg -si
 
 PKGS=(
