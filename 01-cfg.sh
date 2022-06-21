@@ -15,14 +15,23 @@
 #
 #-------------------------------------------------------------------------
 
-cp -r bspwm $HOME/.config/   
-cp -r sxhkd $HOME/.config/
+
+
+mkdir $HOME/.config/
+mkdir $HOME/.config/bspwm/
+mkdir $HOME/.config/sxhkd/
+
+cp bspwmrc $HOME/.config/bspwm   
+cp sxhkdrc $HOME/.config/sxhkd
+
 cp -r polybar $HOME/.config/
-cp -r rofi $HOME/.config/
+cp -r rofi $HOME/
+
 cp starship.toml $HOME/
 cp .zshrc $HOME/
 cp 1.jpg $HOME/
 
+cp .Xresources $HOME/
 
-
-
+chmod +x $HOME/.config/bspwm/bspwmrc
+chmod +x $HOME/.config/sxhkdrc/sxhkdrc
