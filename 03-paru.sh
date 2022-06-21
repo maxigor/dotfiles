@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #-------------------------------------------------------------------------
 #
 #                                      ______    ______  
@@ -16,26 +16,53 @@
 #-------------------------------------------------------------------------
 
 
-# Aur Helpercat 03	
+# AUR HELPER
+echo
+echo "INSTALLING AUR SOFTWARE"
+echo
 
-alias dl="cd /home/max/Downloads"
-dl
+
+echo "CLONING: PARU"
+
+cd ${HOME}/Download
 git clone https://aur.archlinux.org/paru.git
-alias paru="cd paru"
-paru
+cd {$HOME}/Downloads/paru
 makepkg -si
 
+PKGS=(
 
-# Shell Color Script
-# git clone https://gitlab.com/dwt1/shell-color-scripts.git
+    # UTILITIES -----------------------------------------------------------
+
+    'ly'						# ly display manager
+    #'i3lock-fancy'              # Screen locker
+    'timeshift'                 # Backup and Restore
+
+    # COMMUNICATIONS ------------------------------------------------------
+
+    'brave-bin'                 # Brave
+
+    # THEMES --------------------------------------------------------------
+
+    'lightdm-webkit-theme-aether'   # Lightdm Login Theme - https://github.com/NoiSek/Aether#installation
+    'materia-gtk-theme'             # Desktop Theme
+    'papirus-icon-theme'            # Desktop Icons
+    'capitaine-cursors'             # Cursor Icons
+   
+)
 
 
-# Display Manager
-paru -S ly
+for PKG in "${PKGS[@]}"; do
+    paru -S --noconfirm $PKG
+done
+
+
 sudo systemctl enable ly.service
 
+echo
+echo "Done!"
+echo
 
-#
+
 
 
 
