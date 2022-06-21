@@ -34,4 +34,4 @@ cp /home/max/dotfiles/1.jpg /home/max/
 cp /home/max/dotfiles/.Xresources /home/max/
 
 chmod +x /home/max/.config/bspwm/bspwmrc
-chmod +x /home/max/.config/sxhkdrc/sxhkdrc
+chmod +x /home/max/.config/sxhkd/sxhkdrc
