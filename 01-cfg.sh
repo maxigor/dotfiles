@@ -21,17 +21,17 @@ mkdir max/.config/
 mkdir max/.config/bspwm/
 mkdir max/.config/sxhkd/
 
-cp bspwmrc max/.config/bspwm   
-cp sxhkdrc max/.config/sxhkd
+cp dotfiles/bspwmrc max/.config/bspwm   
+cp dotfiles/sxhkdrc max/.config/sxhkd
 
-cp -r polybar max/.config/
-cp -r rofi max/
+cp -r dotfiles/polybar max/.config/
+cp -r dotfiles/rofi max/
 
-cp starship.toml max/
-cp .zshrc max/
-cp 1.jpg max/
+cp dotfiles/starship.toml max/
+cp dotfiles/.zshrc max/
+cp dotfiles/1.jpg max/
 
-cp .Xresources max/
+cp dotfiles/.Xresources max/
 
 chmod +x max/.config/bspwm/bspwmrc
 chmod +x max/.config/sxhkdrc/sxhkdrc
