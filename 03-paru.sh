@@ -16,10 +16,13 @@
 #-------------------------------------------------------------------------
 
 
-# Aur Helper
-cd /home/max/Downloads
+# Aur Helpercat 03	
+
+alias dl="cd /home/max/Downloads"
+dl
 git clone https://aur.archlinux.org/paru.git
-cd paru
+alias paru="cd paru"
+paru
 makepkg -si
 
 
