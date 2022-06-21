@@ -17,8 +17,7 @@
 
 
 # Aur Helper
-cd ~
-cd Downloads
+cd /home/max/Downloads
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
