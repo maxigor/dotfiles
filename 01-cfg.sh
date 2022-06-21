@@ -15,6 +15,8 @@
 #
 #-------------------------------------------------------------------------
 
+chmod +x 02-pacman.sh
+chmod +x 03-paru.sh
 
 mkdir /home/max/Downloads
 mkdir /home/max/.config/
