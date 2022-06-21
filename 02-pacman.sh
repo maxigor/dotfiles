@@ -1,10 +1,18 @@
 #!/usr/bin/env bash
 #-------------------------------------------------------------------------
-#      _          _    __  __      _   _
-#     /_\  _ _ __| |_ |  \/  |__ _| |_(_)__
-#    / _ \| '_/ _| ' \| |\/| / _` |  _| / _|
-#   /_/ \_\_| \__|_||_|_|  |_\__,_|\__|_\__|
-#  Arch Linux Post Install Setup and Config
+#
+#                                      ______    ______  
+#                                     /      \  /      \ 
+#   ______ ____    ______   __    __ |  $$$$$$\|  $$$$$$\
+#  |      \    \  |      \ |  \  /  \| $$  | $$| $$___\$$
+#  | $$$$$$\$$$$\  \$$$$$$\ \$$\/  $$| $$  | $$ \$$    \ 
+#  | $$ | $$ | $$ /      $$  >$$  $$ | $$  | $$ _\$$$$$$\
+#  | $$ | $$ | $$|  $$$$$$$ /  $$$$\ | $$__/ $$|  \__| $$
+#  | $$ | $$ | $$ \$$    $$|  $$ \$$\ \$$    $$ \$$    $$
+#   \$$  \$$  \$$  \$$$$$$$ \$$   \$$  \$$$$$$   \$$$$$$ 
+#
+#            Arch Linux Post Install Setup and Config
+#
 #-------------------------------------------------------------------------
 
 echo
@@ -68,6 +76,7 @@ PKGS=(
     'nemo'                  # Filesystem browser
     'veracrypt'             # Disc encryption utility
     'variety'               # Wallpaper changer
+    'polybar'               # Status Bar
 
     # DEVELOPMENT ---------------------------------------------------------
     
@@ -86,7 +95,7 @@ PKGS=(
     'npm'                   # Node package manager
     'php'                   # Web application scripting language
     'php-apache'            # Apache PHP driver
-    'postfix'               # SMTP mail server
+   #'postfix'               # SMTP mail server
     'python'                # Scripting language
     'qtcreator'             # C++ cross platform IDE
     'qt5-examples'          # Project demos for Qt
