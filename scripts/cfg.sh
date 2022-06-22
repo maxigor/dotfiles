@@ -8,7 +8,6 @@
 #	██║  ██║██║  ██║╚██████╗██║  ██║██║ ╚═╝ ██║██║  ██║██╔╝ ██╗
 #	╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
 #	
-#
 #            Arch Linux Post Install Setup and Config
 #
 #-------------------------------------------------------------------------
@@ -30,7 +29,7 @@ cp -r /home/max/dotfiles/rofi /home/max/
 cp /home/max/dotfiles/starship.toml /home/max/
 cp /home/max/dotfiles/.fehbg /home/max/
 cp /home/max/dotfiles/.zshrc /home/max/
-cp /home/max/dotfiles/1.jpg /home/max/
+cp /home/max/dotfiles/wall.jpg /home/max/
 
 cp /home/max/dotfiles/.Xresources /home/max/
 
