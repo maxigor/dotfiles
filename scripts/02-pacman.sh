@@ -92,7 +92,7 @@ PKGS=(
     'npm'                   # Node package manager
     'php'                   # Web application scripting language
     'php-apache'            # Apache PHP driver
-   #'postfix'               # SMTP mail server
+    #'postfix'              # SMTP mail server
     'python'                # Scripting language
     'qtcreator'             # C++ cross platform IDE
     'qt5-examples'          # Project demos for Qt
