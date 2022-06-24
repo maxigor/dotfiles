@@ -19,7 +19,7 @@ echo -ne "
 Final Setup and Configurations
 GRUB EFI Bootloader Install & Check
 "
-source ${HOME}/dotfiles/configs/setup.conf
+source ${HOME}/ArchTitus/configs/setup.conf
 
 if [[ -d "/sys/firmware/efi" ]]; then
     grub-install --efi-directory=/boot ${DISK}
@@ -59,12 +59,8 @@ echo -ne "
                Enabling (and Theming) Login Display Manager
 -------------------------------------------------------------------------
 "
-if [[ ${DESKTOP_ENV} == "ly" ]]; then
+if [[ ${DESKTOP_ENV} == "bspwm" ]]; then
   systemctl enable ly.service
-  if [[ ${INSTALL_TYPE} == "FULL" ]]; then
-    echo [Theme] >>  /etc/sddm.conf
-    echo Current=Nordic >> /etc/sddm.conf
-  fi
 
 elif [[ "${DESKTOP_ENV}" == "gnome" ]]; then
   systemctl enable gdm.service
