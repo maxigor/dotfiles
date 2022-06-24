@@ -1,0 +1,6 @@
+bspwm
+sxhkd
+base-devel
+picom
+vim
+alacritty
