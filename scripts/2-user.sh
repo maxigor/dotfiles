@@ -17,7 +17,7 @@ echo -ne "
 
 Installing AUR Softwares
 "
-source $HOME/ArchTitus/configs/setup.conf
+source $HOME/dotfiles/configs/setup.conf
 
   cd ~
   mkdir "/home/$USERNAME/.cache"
