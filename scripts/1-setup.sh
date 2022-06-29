@@ -178,9 +178,6 @@ if [ $(whoami) = "root"  ]; then
     echo "$USERNAME:$PASSWORD" | chpasswd
     echo "$USERNAME password set"
 
-	cp -R $HOME/dotfiles /home/$USERNAME/
-    chown -R $USERNAME: /home/$USERNAME/dotfiles
-    echo "dotfiles copied to home directory"
 
 # enter $NAME_OF_MACHINE to /etc/hostname
 	echo $NAME_OF_MACHINE > /etc/hostname
