@@ -5,19 +5,20 @@
 # @brief User customizations and AUR package installation.
 echo -ne "
 -------------------------------------------------------------------------
-
- █████╗ ██████╗  ██████╗██╗  ██╗███╗   ███╗ █████╗ ██╗  ██╗
-██╔══██╗██╔══██╗██╔════╝██║  ██║████╗ ████║██╔══██╗╚██╗██╔╝
-███████║██████╔╝██║     ███████║██╔████╔██║███████║ ╚███╔╝ 
-██╔══██║██╔══██╗██║     ██╔══██║██║╚██╔╝██║██╔══██║ ██╔██╗ 
-██║  ██║██║  ██║╚██████╗██║  ██║██║ ╚═╝ ██║██║  ██║██╔╝ ██╗
-╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
-      
+   █████╗ ██████╗  ██████╗██╗  ██╗████████╗██╗████████╗██╗   ██╗███████╗
+  ██╔══██╗██╔══██╗██╔════╝██║  ██║╚══██╔══╝██║╚══██╔══╝██║   ██║██╔════╝
+  ███████║██████╔╝██║     ███████║   ██║   ██║   ██║   ██║   ██║███████╗
+  ██╔══██║██╔══██╗██║     ██╔══██║   ██║   ██║   ██║   ██║   ██║╚════██║
+  ██║  ██║██║  ██║╚██████╗██║  ██║   ██║   ██║   ██║   ╚██████╔╝███████║
+  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝   ╚═╝    ╚═════╝ ╚══════╝
+-------------------------------------------------------------------------
+                    Automated Arch Linux Installer
+                        SCRIPTHOME: ArchTitus
 -------------------------------------------------------------------------
 
 Installing AUR Softwares
 "
-source $HOME/dotfiles/configs/setup.conf
+source $HOME/ArchTitus/configs/setup.conf
 
   cd ~
   mkdir "/home/$USERNAME/.cache"
@@ -26,7 +27,7 @@ source $HOME/dotfiles/configs/setup.conf
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
   ln -s "~/zsh/.zshrc" ~/.zshrc
 
-sed -n '/'$INSTALL_TYPE'/q;p' ~/dotfiles/pkg-files/${DESKTOP_ENV}.txt | while read line
+sed -n '/'$INSTALL_TYPE'/q;p' ~/ArchTitus/pkg-files/${DESKTOP_ENV}.txt | while read line
 do
   if [[ ${line} == '--END OF MINIMAL INSTALL--' ]]
   then
@@ -45,7 +46,7 @@ if [[ ! $AUR_HELPER == none ]]; then
   makepkg -si --noconfirm
   # sed $INSTALL_TYPE is using install type to check for MINIMAL installation, if it's true, stop
   # stop the script and move on, not installing any more packages below that line
-  sed -n '/'$INSTALL_TYPE'/q;p' ~/dotfiles/pkg-files/aur-pkgs.txt | while read line
+  sed -n '/'$INSTALL_TYPE'/q;p' ~/ArchTitus/pkg-files/aur-pkgs.txt | while read line
   do
     if [[ ${line} == '--END OF MINIMAL INSTALL--' ]]; then
       # If selected installation type is FULL, skip the --END OF THE MINIMAL INSTALLATION-- line
@@ -61,9 +62,9 @@ export PATH=$PATH:~/.local/bin
 # Theming DE if user chose FULL installation
 if [[ $INSTALL_TYPE == "FULL" ]]; then
   if [[ $DESKTOP_ENV == "kde" ]]; then
-    cp -r ~/dotfiles/configs/.config/* ~/.config/
+    cp -r ~/ArchTitus/configs/.config/* ~/.config/
     pip install konsave
-    konsave -i ~/dotfiles/configs/kde.knsv
+    konsave -i ~/ArchTitus/configs/kde.knsv
     sleep 1
     konsave -a kde
   elif [[ $DESKTOP_ENV == "openbox" ]]; then

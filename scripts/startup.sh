@@ -131,20 +131,19 @@ select_option() {
 
     return $(( $active_col + $active_row * $colmax ))
 }
+# @description Displays ArchTitus logo
 # @noargs
 logo () {
 # This will be shown on every set as user is progressing
 echo -ne "
 -------------------------------------------------------------------------
-
-     █████╗ ██████╗  ██████╗██╗  ██╗███╗   ███╗ █████╗ ██╗  ██╗
-    ██╔══██╗██╔══██╗██╔════╝██║  ██║████╗ ████║██╔══██╗╚██╗██╔╝
-    ███████║██████╔╝██║     ███████║██╔████╔██║███████║ ╚███╔╝ 
-    ██╔══██║██╔══██╗██║     ██╔══██║██║╚██╔╝██║██╔══██║ ██╔██╗ 
-    ██║  ██║██║  ██║╚██████╗██║  ██║██║ ╚═╝ ██║██║  ██║██╔╝ ██╗
-    ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
-      
--------------------------------------------------------------------------
+ █████╗ ██████╗  ██████╗██╗  ██╗████████╗██╗████████╗██╗   ██╗███████╗
+██╔══██╗██╔══██╗██╔════╝██║  ██║╚══██╔══╝██║╚══██╔══╝██║   ██║██╔════╝
+███████║██████╔╝██║     ███████║   ██║   ██║   ██║   ██║   ██║███████╗
+██╔══██║██╔══██╗██║     ██╔══██║   ██║   ██║   ██║   ██║   ██║╚════██║
+██║  ██║██║  ██║╚██████╗██║  ██║   ██║   ██║   ██║   ╚██████╔╝███████║
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝   ╚═╝    ╚═════╝ ╚══════╝
+------------------------------------------------------------------------
             Please select presetup settings for your system              
 ------------------------------------------------------------------------
 "
@@ -297,7 +296,7 @@ aurhelper () {
 desktopenv () {
   # Let the user choose Desktop Enviroment from predefined list
   echo -ne "Please select your desired Desktop Enviroment:\n"
-  options=(bspwm gnome kde cinnamon xfce mate budgie lxde deepin openbox server)
+  options=(gnome kde cinnamon xfce mate budgie lxde deepin openbox server)
   select_option $? 4 "${options[@]}"
   desktop_env=${options[$?]}
   set_option DESKTOP_ENV $desktop_env
