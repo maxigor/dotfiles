@@ -13,8 +13,6 @@ alias -- -="cd -"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias speedtest="speedtest-cli"
-alias cask='brew cask'
-alias search='brew search'
 alias g="git"
 alias v="vim"
 alias unzip="gunzip -k"
@@ -85,6 +83,11 @@ alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 
 # the terminal rickroll
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
+
+# zsh move left and right
+bindkey '^[[1;5D' backward-word
+bindkey '^[[1;5C' forward-word
+
 
 ### RANDOM COLOR SCRIPT ###
 # Get this script from my GitLab: gitlab.com/dwt1/shell-color-scripts
