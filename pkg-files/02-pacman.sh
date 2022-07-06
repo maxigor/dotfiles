@@ -135,6 +135,8 @@ PKGS=(
     'plank'
     'dunst'
     'jgmenu'
+    'starship'
+    'exa'
 
     # VIRTUALIZATION ------------------------------------------------------
 

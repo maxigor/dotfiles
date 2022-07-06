@@ -20,16 +20,15 @@ mkdir /home/max/.config/
 mkdir /home/max/.config/bspwm/
 mkdir /home/max/.config/sxhkd/
 
-cp /home/max/dotfiles/bspwmrc /home/max/.config/bspwm   
-cp /home/max/dotfiles/sxhkdrc /home/max/.config/sxhkd
+mkdir /home/max/wallpaper
 
-cp -r /home/max/dotfiles/polybar /home/max/.config/
-cp -r /home/max/dotfiles/rofi /home/max/
+cp /home/max/dotfiles/config/bspwmrc /home/max/.config/bspwm   
+cp /home/max/dotfiles/config/sxhkdrc /home/max/.config/sxhkd
 
-cp /home/max/dotfiles/starship.toml /home/max/
-cp /home/max/dotfiles/.fehbg /home/max/
-cp /home/max/dotfiles/.zshrc /home/max/
-cp /home/max/dotfiles/wall.jpg /home/max/
+cp /home/max/dotfiles/config/starship.toml /home/max/
+cp /home/max/dotfiles/config/.fehbg /home/max/
+cp /home/max/dotfiles/config/.zshrc /home/max/
+cp /home/max/dotfiles/wall.jpg /home/max/wallpaper
 
 cp /home/max/dotfiles/.Xresources /home/max/
 

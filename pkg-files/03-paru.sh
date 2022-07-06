@@ -57,6 +57,7 @@ PKGS=(
     'rpi-imager'
     'snapd'
     'picom-ibhagwan-git'
+    'shell-color-scripts'
 
 
 
