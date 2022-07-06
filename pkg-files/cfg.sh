@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+#-------------------------------------------------------------------------
+#
+#	 █████╗ ██████╗  ██████╗██╗  ██╗███╗   ███╗ █████╗ ██╗  ██╗
+#	██╔══██╗██╔══██╗██╔════╝██║  ██║████╗ ████║██╔══██╗╚██╗██╔╝
+#	███████║██████╔╝██║     ███████║██╔████╔██║███████║ ╚███╔╝ 
+#	██╔══██║██╔══██╗██║     ██╔══██║██║╚██╔╝██║██╔══██║ ██╔██╗ 
+#	██║  ██║██║  ██║╚██████╗██║  ██║██║ ╚═╝ ██║██║  ██║██╔╝ ██╗
+#	╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+#	
+#            Arch Linux Post Install Setup and Config
+#
+#-------------------------------------------------------------------------
+
+chmod +x 02-pacman.sh
+chmod +x 03-paru.sh
+
+mkdir /home/max/Downloads
+mkdir /home/max/.config/
+mkdir /home/max/.config/bspwm/
+mkdir /home/max/.config/sxhkd/
+
+cp /home/max/dotfiles/bspwmrc /home/max/.config/bspwm   
+cp /home/max/dotfiles/sxhkdrc /home/max/.config/sxhkd
+
+cp -r /home/max/dotfiles/polybar /home/max/.config/
+cp -r /home/max/dotfiles/rofi /home/max/
+
+cp /home/max/dotfiles/starship.toml /home/max/
+cp /home/max/dotfiles/.fehbg /home/max/
+cp /home/max/dotfiles/.zshrc /home/max/
+cp /home/max/dotfiles/wall.jpg /home/max/
+
+cp /home/max/dotfiles/.Xresources /home/max/
+
+chmod +x /home/max/.config/bspwm/bspwmrc
+chmod +x /home/max/.config/sxhkd/sxhkdrc
