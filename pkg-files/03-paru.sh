@@ -64,6 +64,8 @@ PKGS=(
 cd ${HOME}/paru
 makepkg -si
 
+# Change default shell
+chsh -s $(which zsh)
 
 for PKG in "${PKGS[@]}"; do
     paru -S --noconfirm $PKG
