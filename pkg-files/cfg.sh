@@ -22,15 +22,16 @@ mkdir /home/max/.config/sxhkd/
 
 mkdir /home/max/wallpaper
 
-cp /home/max/dotfiles/config/bspwmrc /home/max/.config/bspwm   
-cp /home/max/dotfiles/config/sxhkdrc /home/max/.config/sxhkd
+cp /home/max/dotfiles/configs/bspwmrc /home/max/.config/bspwm   
+cp /home/max/dotfiles/configs/sxhkdrc /home/max/.config/sxhkd
 
-cp /home/max/dotfiles/config/starship.toml /home/max/
-cp /home/max/dotfiles/config/.fehbg /home/max/
-cp /home/max/dotfiles/config/.zshrc /home/max/
+cp /home/max/dotfiles/configs/starship.toml /home/max/.config
+cp /home/max/dotfiles/configs/.fehbg /home/max/
+cp /home/max/dotfiles/configs/.zshrc /home/max/
 cp /home/max/dotfiles/wall.jpg /home/max/wallpaper
 
-cp /home/max/dotfiles/.Xresources /home/max/
+cp /home/max/dotfiles/configs/.Xresources /home/max/
+cp /home/max/dotfiles/configs/.xinitrc /home/max/
 
 chmod +x /home/max/.config/bspwm/bspwmrc
 chmod +x /home/max/.config/sxhkd/sxhkdrc

@@ -59,9 +59,6 @@ PKGS=(
     'picom-ibhagwan-git'
     'shell-color-scripts'
 
-
-
-
 )
 
 cd ${HOME}/paru
@@ -73,6 +70,9 @@ chsh -s $(which zsh)
 for PKG in "${PKGS[@]}"; do
     paru -S --noconfirm $PKG
 done
+
+
+sudo systemctl enable ly.service
 
 echo
 echo "Done!"
