@@ -40,9 +40,6 @@ PKGS=(
 
     # THEMES --------------------------------------------------------------
 
-    'lightdm-webkit-theme-aether'   # Lightdm Login Theme - https://github.com/NoiSek/Aether#installation
-    'materia-gtk-theme'             # Desktop Theme
-    'papirus-icon-theme'            # Desktop Icons
     'capitaine-cursors'             # Cursor Icons
     'autojump'                      # Zsh plugin
 
@@ -63,9 +60,6 @@ PKGS=(
 
 cd ${HOME}/paru
 makepkg -si
-
-# Change default shell
-chsh -s $(which zsh)
 
 for PKG in "${PKGS[@]}"; do
     paru -S --noconfirm $PKG
