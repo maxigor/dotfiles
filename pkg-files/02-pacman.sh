@@ -20,7 +20,7 @@ PKGS=(
 
     # SYSTEM --------------------------------------------------------------
 
-    'linux-lts'             # Long term support kernel
+   #'linux-lts'             # Long term support kernel
     'base-devel'            # important
     'nautilus'              # file manager
 
@@ -148,6 +148,9 @@ for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
     sudo pacman -S "$PKG" --noconfirm --needed
 done
+
+# Change default shell
+chsh -s $(which zsh)
 
 echo
 echo "Done!"
