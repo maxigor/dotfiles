@@ -40,7 +40,6 @@ PKGS=(
 
     # THEMES --------------------------------------------------------------
 
-    'capitaine-cursors'             # Cursor Icons
     'autojump'                      # Zsh plugin
 
     # APPS ----------------------------------------------------------------
@@ -53,7 +52,6 @@ PKGS=(
     'nerd-fonts-complete'
     'rpi-imager'
     'snapd'
-    'picom-ibhagwan-git'
     'shell-color-scripts'
 
 )

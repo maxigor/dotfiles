@@ -74,6 +74,8 @@ PKGS=(
     'veracrypt'             # Disc encryption utility
     'variety'               # Wallpaper changer
     'polybar'               # Status Bar
+    'qbittorrent'           # Torrent
+    'font-manager'          # Font Manager
 
     # DEVELOPMENT ---------------------------------------------------------
     
@@ -94,6 +96,7 @@ PKGS=(
     'php-apache'            # Apache PHP driver
     #'postfix'              # SMTP mail server
     'python'                # Scripting language
+    'python-pip'
     'qtcreator'             # C++ cross platform IDE
     'qt5-examples'          # Project demos for Qt
 
@@ -137,6 +140,12 @@ PKGS=(
     'jgmenu'
     'starship'
     'exa'
+
+    # FONTS ---------------------------------------------------------------
+
+    'ttf-font-awesome'
+    'ttf-roboto'
+    'ttf-roboto-mono'
 
     # VIRTUALIZATION ------------------------------------------------------
 
