@@ -25,8 +25,8 @@ mkdir /home/max/wallpaper
 
 cp /home/max/dotfiles/configs/bspwmrc /home/max/.config/bspwm   
 cp /home/max/dotfiles/configs/sxhkdrc /home/max/.config/sxhkd
-cp /home/max/dotfiles/configs/polybar /home/max/.config/polybar/config.ini
-cp /home/max/dotfiles/configs/polybar /home/max/.config/polybar/launch.sh
+cp /home/max/dotfiles/configs/polybar/config.ini /home/max/.config/polybar/config.ini
+cp /home/max/dotfiles/configs/polybar/launch.sh /home/max/.config/polybar/launch.sh
 
 cp /home/max/dotfiles/configs/starship.toml /home/max/.config
 cp /home/max/dotfiles/configs/.fehbg /home/max/.config/
