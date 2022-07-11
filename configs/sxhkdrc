@@ -118,3 +118,8 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+
+# Toggle right click context menu.
+~button3
+	  xqp 0 $(xdo id -N Bspwm -n root) && jgmenu_run
