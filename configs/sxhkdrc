@@ -122,4 +122,4 @@ super + {Left,Down,Up,Right}
 
 # Toggle right click context menu.
 ~button3
-	jgmenu_run
+	bspc query -D -d 'focused.!occupied' && jgmenu_run
