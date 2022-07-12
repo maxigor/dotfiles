@@ -122,4 +122,4 @@ super + {Left,Down,Up,Right}
 
 # Toggle right click context menu.
 ~button3
-	  xqp 0 $(xdo id -N Bspwm -n root) && jgmenu_run
+	jgmenu_run
