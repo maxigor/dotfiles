@@ -2,8 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor DP-1 -d IV V VI VII VIII IX X
-bspc monitor HDMI-1 -d I II III
+bspc monitor VGA-1 -d I II III IV V VI VII VIII IX X
 
 bspc config border_radius		         	4
 bspc config border_width         	    2
@@ -23,6 +22,7 @@ bspc rule -a firefox desktop='^4' follow=on focus=on
 bspc rule -a discord desktop='^2' follow=on
 bspc rule -a spotify desktop='^2' follow=on
 bspc rule -a Thunderbird desktop='^5' follow=on
+bspc rule -a KeePassXC desktop='^1' state=floating
 
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
