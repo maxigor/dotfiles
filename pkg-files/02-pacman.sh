@@ -175,8 +175,6 @@ for PKG in "${PKGS[@]}"; do
     sudo pacman -S "$PKG" --noconfirm --needed
 done
 
-# Change default shell
-chsh -s $(which zsh)
 
 echo
 echo "Done!"

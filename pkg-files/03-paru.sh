@@ -73,6 +73,8 @@ for PKG in "${PKGS[@]}"; do
     paru -S --noconfirm $PKG
 done
 
+# Change default shell
+chsh -s $(which zsh)
 
 sudo systemctl enable ly.service
 
