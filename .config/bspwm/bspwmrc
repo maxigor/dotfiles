@@ -23,6 +23,7 @@ bspc rule -a discord desktop='^2' follow=on
 bspc rule -a spotify desktop='^2' follow=on
 bspc rule -a Thunderbird desktop='^5' follow=on
 bspc rule -a KeePassXC desktop='^1' state=floating
+bspc rule -a Org.gnome.Nautilus state=floating
 
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
