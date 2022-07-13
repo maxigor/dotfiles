@@ -33,7 +33,14 @@ PKGS=(
     'i3lock-fancy'              # Screen locker
     'timeshift'                 # Backup and Restore
     '7-zip-full'
-
+    'xdo'
+    'xdf-user-dirs'
+    'python-xdg'
+    'moreutils'
+    'plank'
+    'rust-nightly-bin' 
+    'gtk3'
+  
     # COMMUNICATIONS ------------------------------------------------------
 
     'brave-bin'                 # Brave
@@ -48,11 +55,14 @@ PKGS=(
     'octopi'
     'librewolf-bin'
     'tor-browser'
-    'ttf-ms-fonts'
-    'nerd-fonts-complete'
     'rpi-imager'
     'snapd'
     'shell-color-scripts'
+    
+    # FONTS -------------------------------------------------------------
+
+    'ttf-ms-fonts'
+    'nerd-fonts-complete'
 
 )
 

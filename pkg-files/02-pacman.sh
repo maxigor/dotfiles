@@ -126,6 +126,23 @@ PKGS=(
     'nomacs'                # Image viewer
     'pngcrush'              # Tools for optimizing PNG images
     'ristretto'             # Multi image viewer
+    
+    # PICOM PIJULUS DEPENDENCIES
+    'libconfig'
+    'libev'
+    'libxdg-basedir'
+    'pcre'
+    'pixman'
+    'xcb-util-image'
+    'xcb-util-renderutil'
+    'hicolor-icon-theme'
+    'libglvnd'
+    'libx11'
+    'libxcb'
+    'libxext'
+    'libdbus'
+    'asciidoc'
+    'uthash'
 
     # PRODUCTIVITY --------------------------------------------------------
 
