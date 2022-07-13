@@ -1,5 +1,4 @@
 Criar um script que baixe e instale direto do github
 
-  2 - eww
   3 - picom pijulus fork 
 
