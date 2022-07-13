@@ -40,6 +40,8 @@ PKGS=(
     'plank'
     'rust-nightly-bin' 
     'gtk3'
+    'gtk-engines' 
+    'gtk-engine-murrine'
   
     # COMMUNICATIONS ------------------------------------------------------
 
