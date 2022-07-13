@@ -11,14 +11,15 @@ My configuration is personalized to utilize keyboard shortcuts as well as mouse 
 - **Notification Manager:** [dunst](https://github.com/dunst-project/dunst)
 - **Application Launcher:** [rofi](https://github.com/davatorium/rofi)
 - **Application Menu:** [jgmenu](https://github.com/johanmalm/jgmenu)
+
 *****
 
 ## Fonts
-| Font List |
-| -------------- | --- |
-| [`Roboto`](https://github.com/googlefonts/roboto) | Main Font |
-| [`Font Awesome`](https://github.com/FortAwesome/Font-Awesome) | Main Icon Font |
-| [`JetBrainsMono Nerd Font`](https://github.com/jtbx/jetbrainsmono-nerdfont) | Main UI Font |
+- [`Roboto`](https://github.com/googlefonts/roboto) Main Font
+- [`Font Awesome`](https://github.com/FortAwesome/Font-Awesome) Main Icon Font
+- [`JetBrainsMono Nerd Font`](https://github.com/jtbx/jetbrainsmono-nerdfont) Main UI Font
+
+****
 
 Clone this repo:
  ```
