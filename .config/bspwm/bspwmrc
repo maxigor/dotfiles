@@ -4,8 +4,8 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor VGA-1 -d I II III IV V VI VII VIII IX X
 
-bspc config border_radius		         	4
-bspc config border_width         	    2
+bspc config border_radius		         	7
+bspc config border_width         	    5
 bspc config window_gap          	    10
 bspc config click_to_focus			      true
 bspc config focus_follows_pointer	    true
@@ -33,4 +33,5 @@ ${HOME}/.config/.fehbg
 xrandr --output DP-1 --primary
 xrandr --output HDMI-1 --rotate right
 xrdb ${HOME}/.Xresources
-$HOME/.config/polybar/launch.sh &
+$HOME/.config/polybar/launch.sh
+picom &
