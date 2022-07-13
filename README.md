@@ -1,4 +1,24 @@
+My configuration is personalized to utilize keyboard shortcuts as well as mouse actions to keep my workflow meaningful and flexible under varying conditions.
 
+- **Color Scheme:** Tokyo Night + Ant-Dracula
+- **Window Manager:** [bspwm](https://github.com/baskerville/bspwm)
+- **Terminal:** [alacritty](https://github.com/alacritty/alacritty)
+- **Shell:** [zsh](https://www.zsh.org/)
+- **Panel:** [polybar](https://github.com/polybar/polybar)
+- **Dock:** [plank](https://github.com/ricotz/plank)
+- **Compositor:** [picom-ibhagwan-git*](https://github.com/ibhagwan/picom-ibhagwan-git)
+- **Editor:** [neovim](https://github.com/neovim/neovim)
+- **Notification Manager:** [dunst](https://github.com/dunst-project/dunst)
+- **Application Launcher:** [rofi](https://github.com/davatorium/rofi)
+- **Application Menu:** [jgmenu](https://github.com/johanmalm/jgmenu)
+*****
+
+## Fonts
+| Font List |
+| -------------- | --- |
+| [`Roboto`](https://github.com/googlefonts/roboto) | Main Font |
+| [`Font Awesome`](https://github.com/FortAwesome/Font-Awesome) | Main Icon Font |
+| [`JetBrainsMono Nerd Font`](https://github.com/jtbx/jetbrainsmono-nerdfont) | Main UI Font |
 
 Clone this repo:
  ```
@@ -49,6 +69,17 @@ Then you just gotta do:
 cd ~/Downloads
 git clone https://github.com/baskerville/xqp.git
 cd xqp
+make
+sudo make install
+```
+
+3. xdo
+
+Then you just gotta do:
+```
+cd ~/Downloads
+git clone https://github.com/baskerville/xdo
+cd xdo
 make
 sudo make install
 ```
