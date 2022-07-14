@@ -41,3 +41,7 @@ chmod +x /home/max/.config/bspwm/bspwmrc
 chmod +x /home/max/.config/sxhkd/sxhkdrc
 chmod +x /home/max/.config/.fehbg
 chmod +x /home/max/.config/polybar/launch.sh
+
+git config --global user.email "maxigor.ferreira@gmail.com"
+git config --global user.name "Max"
+
