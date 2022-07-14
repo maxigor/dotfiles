@@ -55,32 +55,3 @@ sudo mv eww /usr/bin/eww
 ```
 That installs eww to our root filesystem, which is then sourced from the $PATH.
 
-2. xqp
-
-xqp comes from the author of bspwm. It outputs the pointer ID under the window, basically, it is needed for the right click menu to function when clicking the root window in bspwm. The method of doing this was taken from beyond9thousand
-
-NOTE: You need base-devel installed before this:
-
-```
-sudo pacman -S base-devel
-```
-
-Then you just gotta do:
-```
-cd ~/Downloads
-git clone https://github.com/baskerville/xqp.git
-cd xqp
-make
-sudo make install
-```
-
-3. xdo
-
-Then you just gotta do:
-```
-cd ~/Downloads
-git clone https://github.com/baskerville/xdo
-cd xdo
-make
-sudo make install
-```
