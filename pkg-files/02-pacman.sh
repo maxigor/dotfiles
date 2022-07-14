@@ -57,8 +57,8 @@ PKGS=(
     'zsh-completions'       # Tab completion for ZSH
     'starship'              # Customizable prompt
     'github-cli'            # github cli helper
-
-    # DISK UTILITIES ------------------------------------------------------
+   
+   # DISK UTILITIES ------------------------------------------------------
 
     'autofs'                # Auto-mounter
     'exfat-utils'           # Mount exFat drives
@@ -97,8 +97,8 @@ PKGS=(
     #'postfix'              # SMTP mail server
     'python'                # Scripting language
     'python-pip'
-    'qtcreator'             # C++ cross platform IDE
-    'qt5-examples'          # Project demos for Qt
+    #'qtcreator'             # C++ cross platform IDE
+    #'qt5-examples'          # Project demos for Qt
 
     # WEB TOOLS -----------------------------------------------------------
 
@@ -167,6 +167,7 @@ PKGS=(
     # VIRTUALIZATION ------------------------------------------------------
 
     'virtualbox'
+    'virtualbox-guest-utils'
     'virtualbox-host-modules-arch'
 )
 
@@ -174,7 +175,7 @@ for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
     sudo pacman -S "$PKG" --noconfirm --needed
 done
-
+    sudo systemctl enable vboxservice.service --noconfirm --needed
 
 echo
 echo "Done!"
