@@ -127,7 +127,8 @@ PKGS=(
     'pngcrush'              # Tools for optimizing PNG images
     'ristretto'             # Multi image viewer
     
-    # PICOM PIJULUS DEPENDENCIES
+    # PICOM PIJULUS DEPENDENCIES -----------------------------------------
+
     'libconfig'
     'libev'
     'libxdg-basedir'
@@ -175,7 +176,18 @@ for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
     sudo pacman -S "$PKG" --noconfirm --needed
 done
+
     sudo systemctl enable vboxservice.service --noconfirm --needed
+
+    # PICOM PIJULIUS -----------------------------------------------------
+    
+    cd /home/max/Downloads
+    echo "Cloning Picom Pijulius..."
+    git clone https://github.com/pijulius/picom.git
+    cd /home/max/picom/
+    meson --buildtype=release . build --prefix=/usr -Dwith_docs=true
+    sudo ninja -C build install
+
 
 echo
 echo "Done!"
