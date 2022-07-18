@@ -34,6 +34,3 @@ git config --global user.email "maxigor.ferreira@gmail.com"
 git config --global user.name "Max"
 
 
-# fonts install
-sudo cp -r /home/max/dotfiles/.fonts/* /usr/share/fonts/TTF
-sudo fc-cache -fv

@@ -20,11 +20,11 @@
     )
 
     for PKG in "${PKGS[@]}"; do
-    	paru -S --noconfirm $PKG
+    	paru -S $PKG
     done
 
     # PICOM PIJULIUS -----------------------------------------------------
-    cd /home/max/Downloads
+    cd ~/home/max/Downloads
     echo "Cloning Picom Pijulius..."
     git clone https://github.com/pijulius/picom.git
     cd /home/max/Downloads/picom/
@@ -32,7 +32,7 @@
     sudo ninja -C build install
 
     # EWW -----------------------------------------------------------------
-    cd /home/max/Downloads
+    cd ~/home/max/Downloads
     git clone https://github.com/elkowar/eww.git
     cd /home/max/Downloads/eww
     cargo build --release -j $(nproc)
@@ -40,19 +40,21 @@
     sudo mv eww /usr/bin/eww
 
     # XQP -----------------------------------------------------------------
-    cd /home/max/Downloads
+    cd ~/home/max/Downloads
     git clone https://github.com/baskerville/xqp.git
     cd xqp
     make
     sudo make install
 
     # XDO -----------------------------------------------------------------
-    cd /home/max/Downloads
+    cd ~/home/max/Downloads
     git clone https://github.com/baskerville/xdo
     cd xdo
     make
     sudo make install
 
+    sudo usermod -aG adm $USER
 
-
-   sudo usermod -aG adm $USER
+    # FONTS INSTALL ------------------------------------------------------
+    sudo cp -r /home/max/dotfiles/.fonts/* /usr/share/fonts/TTF
+    sudo fc-cache -fv
