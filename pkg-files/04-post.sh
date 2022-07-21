@@ -17,19 +17,12 @@
         'gtk3'
     	'gtk-engines'
     	'gtk-engine-murrine'
-    )
+	'picom-pijulius-git'    
+)
 
     for PKG in "${PKGS[@]}"; do
     	paru -S $PKG
     done
-
-    # PICOM PIJULIUS -----------------------------------------------------
-    cd /home/max/Downloads
-    echo "Cloning Picom Pijulius..."
-    git clone https://github.com/pijulius/picom.git
-    cd picom
-    meson --buildtype=release . build --prefix=/usr -Dwith_docs=true
-    sudo ninja -C build install
 
     # EWW -----------------------------------------------------------------
     cd /home/max/Downloads
