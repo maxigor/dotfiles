@@ -68,7 +68,7 @@ cd ${HOME}/paru
 makepkg -si
 
 for PKG in "${PKGS[@]}"; do
-    paru -S $PKG --noconfirm 
+    paru -S $PKG --noconfirm --needed
 done
 
 # Change default shell
