@@ -1,7 +1,7 @@
 #!/bin/bash
 #github-action genshdoc
 #
-# @file archmax
+# @file ArchMax 
 # @brief Entrance script that launches children scripts for each phase of installation.
 
 # Find the name of the folder the scripts are in
@@ -11,6 +11,7 @@ SCRIPTS_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd 
 CONFIGS_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"/configs
 set +a
 echo -ne "
+
 -------------------------------------------------------------------------
 
      █████╗ ██████╗  ██████╗██╗  ██╗███╗   ███╗ █████╗ ██╗  ██╗
@@ -30,7 +31,7 @@ echo -ne "
     ( bash $SCRIPT_DIR/scripts/0-preinstall.sh )|& tee 0-preinstall.log
     ( arch-chroot /mnt $HOME/dotfiles/scripts/1-setup.sh )|& tee 1-setup.log
     if [[ ! $DESKTOP_ENV == server ]]; then
-      ( arch-chroot /mnt /usr/bin/runuser -u $USERNAME -- /home/$USERNAME/dotfiles/2-user.sh )|& tee 2-user.log
+      ( arch-chroot /mnt /usr/bin/runuser -u $USERNAME -- /home/$USERNAME/dotfiles/scripts/2-user.sh )|& tee 2-user.log
     fi
     ( arch-chroot /mnt $HOME/dotfiles/scripts/3-post-setup.sh )|& tee 3-post-setup.log
     cp -v *.log /mnt/home/$USERNAME
