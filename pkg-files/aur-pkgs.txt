@@ -23,3 +23,11 @@ shell-color-scripts
 
 ttf-ms-fonts
 nerd-fonts-complete
+
+
+
+rust-nightly-bin
+gtk3
+gtk-engines
+gtk-engine-murrine
+picom-pijulius-git

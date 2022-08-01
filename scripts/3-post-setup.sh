@@ -68,12 +68,6 @@ elif [[ "${DESKTOP_ENV}" == "gnome" ]]; then
 elif [[ "${DESKTOP_ENV}" == "lxde" ]]; then
   systemctl enable lxdm.service
 
-else
-  if [[ ! "${DESKTOP_ENV}" == "server"  ]]; then
-  sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter
-  systemctl enable lightdm.service
-  fi
-fi
 
 echo -ne "
 -------------------------------------------------------------------------
@@ -151,3 +145,59 @@ rm -r /home/$USERNAME/dotfiles
 cd $pwd
 
 https://github.com/ChrisTitusTech/dotfiles/tree/main/configs/boot/grub/themes/CyberRe
+
+
+echo -ne "
+-------------------------------------------------------------------------
+                    Copying CFG
+-------------------------------------------------------------------------
+"
+
+mkdir /home/max/Downloads
+mkdir /home/max/wallpaper
+
+cp /home/max/dotfiles/wall.jpg /home/max/wallpaper
+
+cp -r /home/max/dotfiles/configs/.config /home/max/
+cp /home/max/dotfiles/configs/.Xresources /home/max/
+cp /home/max/dotfiles/configs/.xinitrc /home/max/
+cp /home/max/dotfiles/configs/.zshrc /home/max/
+
+chmod +x /home/max/.config/bspwm/bspwmrc
+chmod +x /home/max/.config/sxhkd/sxhkdrc
+chmod +x /home/max/.config/.fehbg
+chmod +x /home/max/.config/polybar/launch.sh
+
+
+git config --global user.email "maxigor.ferreira@gmail.com"
+git config --global user.name "Max"
+
+
+
+cd /home/max/Downloads
+git clone https://github.com/elkowar/eww.git
+cd eww
+cargo build --release -j $(nproc)
+cd target/release
+sudo mv eww /usr/bin/eww
+
+
+cd /home/max/Downloads
+git clone https://github.com/baskerville/xqp.git
+cd xqp
+make
+sudo make install
+
+
+cd /home/max/Downloads
+git clone https://github.com/baskerville/xdo
+cd xdo
+make
+sudo make install
+sudo usermod -aG adm $USER
+
+
+sudo cp -r /home/max/dotfiles/configs/.fonts/* /usr/share/fonts/TTF
+sudo fc-cache -fv
+
+systemctl enable ly.service
