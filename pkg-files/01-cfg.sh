@@ -18,10 +18,10 @@ mkdir /home/max/wallpaper
 
 cp /home/max/dotfiles/wall.jpg /home/max/wallpaper
 
-cp -r /home/max/dotfiles/.config /home/max/
-cp /home/max/dotfiles/.Xresources /home/max/
-cp /home/max/dotfiles/.xinitrc /home/max/
-cp /home/max/dotfiles/.zshrc /home/max/
+cp -r /home/max/dotfiles/configs/.config /home/max/
+cp /home/max/dotfiles/configs/.Xresources /home/max/
+cp /home/max/dotfiles/configs/.xinitrc /home/max/
+cp /home/max/dotfiles/configs/.zshrc /home/max/
 
 chmod +x /home/max/.config/bspwm/bspwmrc
 chmod +x /home/max/.config/sxhkd/sxhkdrc
