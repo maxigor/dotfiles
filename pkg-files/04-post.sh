@@ -14,9 +14,9 @@
 
     PKGS=(
 	'rust-nightly-bin'
-        'gtk3'
-    	'gtk-engines'
-    	'gtk-engine-murrine'
+    'gtk3'
+    'gtk-engines'
+    'gtk-engine-murrine'
 	'picom-pijulius-git'    
 )
 
