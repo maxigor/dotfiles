@@ -49,5 +49,5 @@
     sudo usermod -aG adm $USER
 
     # FONTS INSTALL ------------------------------------------------------
-    sudo cp -r /home/max/dotfiles/.fonts/* /usr/share/fonts/TTF
+    sudo cp -r /home/max/dotfiles/configs/.fonts/* /usr/share/fonts/TTF
     sudo fc-cache -fv
