@@ -58,7 +58,8 @@ PKGS=(
     'zsh-completions'       # Tab completion for ZSH
     'starship'              # Customizable prompt
     'github-cli'            # github cli helper
-   
+    'bluetoothctl'	    # bluetooth
+    
    # DISK UTILITIES ------------------------------------------------------
 
     'autofs'                # Auto-mounter
@@ -179,6 +180,10 @@ for PKG in "${PKGS[@]}"; do
 done
 
     sudo systemctl enable vboxservice.service --noconfirm --needed
+    
+    modprobe btusb
+    systemctl enable bluetooth --noconfirm --needed
+    systemctl start bluetooth --noconfirm --needed
 
 echo
 echo "Done!"
