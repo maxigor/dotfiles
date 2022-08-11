@@ -1,0 +1,118 @@
+**** BEGIN LOGGING AT Thu Aug 11 01:14:13 2022
+
+Aug 11 01:14:13 *	*** Checking Ident
+Aug 11 01:14:13 *	*** Looking up your hostname...
+Aug 11 01:14:13 *	*** No Ident response
+Aug 11 01:14:15 *	*** Couldn't look up your hostname
+Aug 11 01:14:15 *	Capabilities supported: account-notify away-notify chghost extended-join multi-prefix sasl=PLAIN,ECDSA-NIST256P-CHALLENGE,EXTERNAL tls account-tag cap-notify echo-message solanum.chat/identify-msg solanum.chat/oper solanum.chat/realhost
+Aug 11 01:14:15 *	Capabilities requested: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify solanum.chat/identify-msg 
+Aug 11 01:14:15 *	Capabilities acknowledged: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify solanum.chat/identify-msg
+**** ENDING LOGGING AT Thu Aug 11 01:14:15 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:14:15 2022
+
+Aug 11 01:14:15 *	Welcome to the Libera.Chat Internet Relay Chat Network DarrylTheFish
+Aug 11 01:14:15 *	Your host is lithium.libera.chat[2a01:7e00::f03c:92ff:fee6:6a95/6697], running version solanum-1.0-dev
+Aug 11 01:14:15 *	This server was created Tue Aug 2 2022 at 04:02:33 UTC
+Aug 11 01:14:15 *	lithium.libera.chat solanum-1.0-dev DGMQRSZaghilopsuwz CFILMPQSTbcefgijklmnopqrstuvz bkloveqjfI
+Aug 11 01:14:15 *	SAFELIST ELIST=CMNTU KNOCK MONITOR=100 CALLERID=g ETRACE FNC WHOX CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQSTcgimnprstuz :are supported by this server
+Aug 11 01:14:15 *	CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=Libera.Chat STATUSMSG=@+ CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D :are supported by this server
+Aug 11 01:14:15 *	TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz :are supported by this server
+Aug 11 01:14:15 *	There are 65 users and 46603 invisible on 27 servers
+Aug 11 01:14:15 *	41 :IRC Operators online
+Aug 11 01:14:15 *	51 :unknown connection(s)
+Aug 11 01:14:15 *	22548 :channels formed
+Aug 11 01:14:15 *	I have 4078 clients and 1 servers
+Aug 11 01:14:15 *	4078 4259 :Current local users 4078, max 4259
+Aug 11 01:14:15 *	46668 52334 :Current global users 46668, max 52334
+Aug 11 01:14:15 *	Highest connection count: 4260 (4259 clients) (18903 connections received)
+Aug 11 01:14:15 *	- lithium.libera.chat Message of the Day - 
+Aug 11 01:14:15 *	- Welcome to Libera Chat, the IRC network for
+Aug 11 01:14:15 *	- free & open-source software and peer directed projects.
+Aug 11 01:14:15 *	-  
+Aug 11 01:14:15 *	- Use of Libera Chat is governed by our network policies.
+Aug 11 01:14:15 *	-  
+Aug 11 01:14:15 *	- To reduce network abuses we perform open proxy checks
+Aug 11 01:14:15 *	- on hosts at connection time.
+Aug 11 01:14:15 *	-  
+Aug 11 01:14:15 *	- Please visit us in #libera for questions and support.
+Aug 11 01:14:15 *	-  
+Aug 11 01:14:15 *	- Website and documentation:  https://libera.chat
+Aug 11 01:14:15 *	- Webchat:                    https://web.libera.chat
+Aug 11 01:14:15 *	- Network policies:           https://libera.chat/policies
+Aug 11 01:14:15 *	- Email:                      support@libera.chat
+Aug 11 01:14:15 *	End of /MOTD command.
+Aug 11 01:14:15 *	DarrylTheFish sets mode +Z on DarrylTheFish
+Aug 11 01:14:15 *	DarrylTheFish sets mode +i on DarrylTheFish
+Aug 11 01:14:15 *	DarrylTheFish sets mode +w on DarrylTheFish
+**** ENDING LOGGING AT Thu Aug 11 01:14:54 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:14:54 2022
+
+**** ENDING LOGGING AT Thu Aug 11 01:15:24 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:15:24 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:21:22 2022
+
+Aug 11 01:21:22 *	Welcome to the Libera.Chat Internet Relay Chat Network DarrylTheFish
+Aug 11 01:21:22 *	Your host is lead.libera.chat[2a01:270:0:666f::1/6697], running version solanum-1.0-dev
+Aug 11 01:21:22 *	This server was created Mon Aug 1 2022 at 05:54:19 UTC
+Aug 11 01:21:22 *	lead.libera.chat solanum-1.0-dev DGMQRSZaghilopsuwz CFILMPQSTbcefgijklmnopqrstuvz bkloveqjfI
+Aug 11 01:21:22 *	FNC WHOX CALLERID=g ETRACE MONITOR=100 KNOCK SAFELIST ELIST=CMNTU CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQSTcgimnprstuz :are supported by this server
+Aug 11 01:21:22 *	CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=Libera.Chat STATUSMSG=@+ CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D :are supported by this server
+Aug 11 01:21:22 *	TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz :are supported by this server
+Aug 11 01:21:22 *	There are 65 users and 46611 invisible on 27 servers
+Aug 11 01:21:22 *	41 :IRC Operators online
+Aug 11 01:21:22 *	5 :unknown connection(s)
+Aug 11 01:21:22 *	22542 :channels formed
+Aug 11 01:21:22 *	I have 4112 clients and 1 servers
+Aug 11 01:21:22 *	4112 4735 :Current local users 4112, max 4735
+Aug 11 01:21:22 *	46676 52334 :Current global users 46676, max 52334
+Aug 11 01:21:22 *	Highest connection count: 4736 (4735 clients) (42925 connections received)
+Aug 11 01:21:22 *	- lead.libera.chat Message of the Day - 
+Aug 11 01:21:22 *	- Welcome to Libera Chat, the IRC network for
+Aug 11 01:21:22 *	- free & open-source software and peer directed projects.
+Aug 11 01:21:22 *	-  
+Aug 11 01:21:22 *	- Use of Libera Chat is governed by our network policies.
+Aug 11 01:21:22 *	-  
+Aug 11 01:21:22 *	- To reduce network abuses we perform open proxy checks
+Aug 11 01:21:22 *	- on hosts at connection time.
+Aug 11 01:21:22 *	-  
+Aug 11 01:21:22 *	- Please visit us in #libera for questions and support.
+Aug 11 01:21:22 *	-  
+Aug 11 01:21:22 *	- Website and documentation:  https://libera.chat
+Aug 11 01:21:22 *	- Webchat:                    https://web.libera.chat
+Aug 11 01:21:22 *	- Network policies:           https://libera.chat/policies
+Aug 11 01:21:22 *	- Email:                      support@libera.chat
+Aug 11 01:21:22 *	End of /MOTD command.
+Aug 11 01:21:22 *	DarrylTheFish sets mode +Z on DarrylTheFish
+Aug 11 01:21:22 *	DarrylTheFish sets mode +i on DarrylTheFish
+Aug 11 01:21:22 *	DarrylTheFish sets mode +w on DarrylTheFish
+**** ENDING LOGGING AT Thu Aug 11 01:21:39 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:21:39 2022
+
+**** ENDING LOGGING AT Thu Aug 11 01:22:23 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:22:23 2022
+
+**** ENDING LOGGING AT Thu Aug 11 01:23:01 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:23:01 2022
+
+**** ENDING LOGGING AT Thu Aug 11 01:23:30 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:23:30 2022
+
+Aug 11 01:24:06 *	#archlinux :Cannot join channel (+r) - you need to be logged into your NickServ account
+Aug 11 01:24:53 *	Channel #cybersec modes: +intf
+Aug 11 01:24:53 *	#cybersec :End of /WHO list.
+**** ENDING LOGGING AT Thu Aug 11 01:26:15 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:26:15 2022
+
+**** ENDING LOGGING AT Thu Aug 11 01:27:06 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:27:06 2022
+

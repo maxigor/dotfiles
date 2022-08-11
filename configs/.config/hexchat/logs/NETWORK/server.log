@@ -1,0 +1,46 @@
+**** BEGIN LOGGING AT Thu Aug 11 01:14:11 2022
+
+Aug 11 01:14:11 Checksum plugin loaded
+Aug 11 01:14:12 FiSHLiM plugin loaded
+Aug 11 01:14:12 Lua version 1.3/5.4 loaded.
+Aug 11 01:14:12 Perl interface loaded
+Aug 11 01:14:12 Python interface loaded
+Aug 11 01:14:12 Sysinfo plugin loaded
+**** BEGIN LOGGING AT Thu Aug 11 01:21:19 2022
+
+Aug 11 01:21:19 Checksum plugin loaded
+Aug 11 01:21:19 FiSHLiM plugin loaded
+Aug 11 01:21:19 Lua version 1.3/5.4 loaded.
+Aug 11 01:21:19 Perl interface loaded
+Aug 11 01:21:20 Python interface loaded
+Aug 11 01:21:20 Sysinfo plugin loaded
+Aug 11 01:21:20 *	Looking up irc.libera.chat
+Aug 11 01:21:20 *	Connecting to irc.libera.chat (2a01:270:0:666f::1:6697)
+Aug 11 01:21:20 *	* Subject: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Aug 11 01:21:20 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Aug 11 01:21:20 *	* Subject: /C=US/O=Let's Encrypt/CN=R3
+Aug 11 01:21:20 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Aug 11 01:21:20 *	* Subject: /CN=lead.libera.chat
+Aug 11 01:21:20 *	* Issuer: /C=US/O=Let's Encrypt/CN=R3
+Aug 11 01:21:20 *	* Certification info:
+Aug 11 01:21:20 *	  Subject:
+Aug 11 01:21:20 *	    CN=lead.libera.chat
+Aug 11 01:21:20 *	  Issuer:
+Aug 11 01:21:20 *	    C=US
+Aug 11 01:21:20 *	    O=Let's Encrypt
+Aug 11 01:21:20 *	    CN=R3
+Aug 11 01:21:20 *	  Public key algorithm: rsaEncryption (4096 bits)
+Aug 11 01:21:20 *	  Sign algorithm sha256WithRSAEncryption
+Aug 11 01:21:20 *	  Valid since Jul 11 05:18:47 2022 GM to Oct  9 05:18:46 2022 GM
+Aug 11 01:21:20 *	* Cipher info:
+Aug 11 01:21:20 *	  Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+Aug 11 01:21:20 *	Connected. Now logging in.
+Aug 11 01:21:21 *	*** Checking Ident
+Aug 11 01:21:21 *	*** Looking up your hostname...
+Aug 11 01:21:21 *	*** No Ident response
+Aug 11 01:21:21 *	*** Couldn't look up your hostname
+Aug 11 01:21:21 *	Capabilities supported: account-notify away-notify chghost extended-join multi-prefix sasl=PLAIN,ECDSA-NIST256P-CHALLENGE,EXTERNAL tls account-tag cap-notify echo-message solanum.chat/identify-msg solanum.chat/oper solanum.chat/realhost
+Aug 11 01:21:21 *	Capabilities requested: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify solanum.chat/identify-msg 
+Aug 11 01:21:21 *	Capabilities acknowledged: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify solanum.chat/identify-msg
+**** ENDING LOGGING AT Thu Aug 11 01:21:22 2022
+

@@ -1,0 +1,28 @@
+T 1660191708 19*	Now talking on 22#linux
+T 1660191708 22*	Topic for 22#linux is: Welcome to #linux! Help/support for any Linux distribution. Discussion about the various aspects of Linux and Free/Open Source software is also encouraged. Rules at https://linux.chat/linux-on-libera/channel-rules/ -- Pastebin: "<command> | nc termbin.com 9999" (Do not use pastebin.com) -- No SMS (u, thx, etc.) -- Need an op? !ops <reason> or Join #linux-ops
+T 1660191708 22*	Topic for 22#linux set by 26lacroix (24Mon Jan  3 05:24:32 2022)
+T 1660191723 23*	medard (~mithrin@stip-static-62.213-81-207.telecom.sk23) has joined
+T 1660191728 18<Robdgreat18>	it turns out wildcard expansion is an example of expansion
+T 1660191729 18<bullgard418>	Robdgreat, I disagree with your answer. What you write is bash's "parameter expansion" and not the almost 238 times "expansion" use of bash.
+T 1660191730 24*	mithrin has quit (Ping timeout: 244 seconds)
+T 1660191731 18<Colere18>	bullgard4, as a near-native speaker of the English language, I promise you, this is what the term "expansion" generally means.
+T 1660191760 18<Colere18>	In non-technical English, the term "expansion" means "making something bigger".
+T 1660191780 18<Robdgreat18>	bullgard4: if you knew the answer, you neednt have asked the question
+T 1660191812 24*	stolen has quit (Ping timeout: 252 seconds)
+T 1660191813 18<Andrew18>	Expansion is a bit mre of 'touch spammy{1..9}{a..z}' use cases
+T 1660191822 18<Colere18>	He didn't say he *knew*, he said he *disagreed*. It's more than possible to express disagreement or doubt without having certain knowledge one way or another.
+T 1660191831 18<bullgard418>	Colere, I do not ask about "non-technical English". Bash is highly technical.
+T 1660191839 24*	pepeamid has quit (Quit: Byetelas)
+T 1660191848 23*	biberu\ (~biberu@user/biberu23) has joined
+T 1660191853 18<Robdgreat18>	e shrugs.
+T 1660191858 18<Colere18>	Bash is a cobbled-together Rube Goldberg pile of garbage.
+T 1660191859 18*	Robdgreat shrugs
+T 1660191864 23*	Feriun (~Feriun@user/Feriun23) has joined
+T 1660191903 18<Feriun18>	Hey there, I have an AppImage application which I can not config! config file is not loaded from .config
+T 1660191913 18<Feriun18>	Do you know how can I config the app?
+T 1660191927 18<Feriun18>	It's Sioyek, a PDF reader
+T 1660191944 24*	fegie has quit (Ping timeout: 255 seconds)
+T 1660191977 23*	stolen (~stolen@user/stolen23) has joined
+T 1660191994 23*	xcodz-dot (~xcodz-dot@223.233.67.5323) has joined
+T 1660192040 24*	xcodz-dot has quit (Quit: Connection closed)
+T 1660192043 24*	rtypo has quit (Ping timeout: 268 seconds)

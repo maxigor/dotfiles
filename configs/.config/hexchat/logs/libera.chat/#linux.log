@@ -1,0 +1,50 @@
+**** BEGIN LOGGING AT Thu Aug 11 01:21:48 2022
+
+Aug 11 01:21:48 *	Now talking on #linux
+Aug 11 01:21:48 *	Topic for #linux is: Welcome to #linux! Help/support for any Linux distribution. Discussion about the various aspects of Linux and Free/Open Source software is also encouraged. Rules at https://linux.chat/linux-on-libera/channel-rules/ -- Pastebin: "<command> | nc termbin.com 9999" (Do not use pastebin.com) -- No SMS (u, thx, etc.) -- Need an op? !ops <reason> or Join #linux-ops
+Aug 11 01:21:48 *	Topic for #linux set by lacroix (Mon Jan  3 05:24:32 2022)
+Aug 11 01:22:03 *	medard (~mithrin@stip-static-62.213-81-207.telecom.sk) has joined
+Aug 11 01:22:08 <Robdgreat>	it turns out wildcard expansion is an example of expansion
+Aug 11 01:22:09 <bullgard4>	Robdgreat, I disagree with your answer. What you write is bash's "parameter expansion" and not the almost 238 times "expansion" use of bash.
+Aug 11 01:22:10 *	mithrin has quit (Ping timeout: 244 seconds)
+Aug 11 01:22:11 <Colere>	bullgard4, as a near-native speaker of the English language, I promise you, this is what the term "expansion" generally means.
+**** ENDING LOGGING AT Thu Aug 11 01:22:23 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:22:23 2022
+
+Aug 11 01:22:40 <Colere>	In non-technical English, the term "expansion" means "making something bigger".
+Aug 11 01:23:00 <Robdgreat>	bullgard4: if you knew the answer, you neednt have asked the question
+**** ENDING LOGGING AT Thu Aug 11 01:23:01 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:23:01 2022
+
+**** ENDING LOGGING AT Thu Aug 11 01:23:30 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:23:30 2022
+
+Aug 11 01:23:32 *	stolen has quit (Ping timeout: 252 seconds)
+Aug 11 01:23:33 <Andrew>	Expansion is a bit mre of 'touch spammy{1..9}{a..z}' use cases
+Aug 11 01:23:42 <Colere>	He didn't say he *knew*, he said he *disagreed*. It's more than possible to express disagreement or doubt without having certain knowledge one way or another.
+Aug 11 01:23:51 <bullgard4>	Colere, I do not ask about "non-technical English". Bash is highly technical.
+Aug 11 01:23:59 *	pepeamid has quit (Quit: Byetelas)
+Aug 11 01:24:08 *	biberu\ (~biberu@user/biberu) has joined
+Aug 11 01:24:13 <Robdgreat>	e shrugs.
+Aug 11 01:24:18 <Colere>	Bash is a cobbled-together Rube Goldberg pile of garbage.
+Aug 11 01:24:19 *	Robdgreat shrugs
+Aug 11 01:24:24 *	Feriun (~Feriun@user/Feriun) has joined
+Aug 11 01:25:03 <Feriun>	Hey there, I have an AppImage application which I can not config! config file is not loaded from .config
+Aug 11 01:25:13 <Feriun>	Do you know how can I config the app?
+Aug 11 01:25:27 <Feriun>	It's Sioyek, a PDF reader
+Aug 11 01:25:44 *	fegie has quit (Ping timeout: 255 seconds)
+**** ENDING LOGGING AT Thu Aug 11 01:26:13 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:26:13 2022
+
+Aug 11 01:26:17 *	stolen (~stolen@user/stolen) has joined
+Aug 11 01:26:34 *	xcodz-dot (~xcodz-dot@223.233.67.53) has joined
+**** ENDING LOGGING AT Thu Aug 11 01:27:05 2022
+
+**** BEGIN LOGGING AT Thu Aug 11 01:27:05 2022
+
+Aug 11 01:27:20 *	xcodz-dot has quit (Quit: Connection closed)
+Aug 11 01:27:23 *	rtypo has quit (Ping timeout: 268 seconds)
