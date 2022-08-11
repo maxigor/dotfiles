@@ -29,6 +29,7 @@ git clone "https://aur.archlinux.org/paru.git"
 PKGS=(
 
     # UTILITIES -----------------------------------------------------------
+    
     'ly'						# Display Manager
     'i3lock-fancy'              # Screen locker
     'timeshift'                 # Backup and Restore
@@ -56,6 +57,11 @@ PKGS=(
     'rpi-imager'
     'snapd'
     'shell-color-scripts'
+
+    # CONTROL -----------------------------------------------------------
+
+    'backlight_control'
+    'pulseaudio-control' 
     
     # FONTS -------------------------------------------------------------
 
