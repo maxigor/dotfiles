@@ -62,7 +62,9 @@ PKGS=(
     'rpi-imager'
     'snapd'
     'shell-color-scripts'
-
+    'plex-media-server'
+    'nordvpn-bin'
+    'spotify'
     # CONTROL -----------------------------------------------------------
 
     'backlight_control'
@@ -86,6 +88,14 @@ done
 chsh -s $(which zsh)
 
 sudo systemctl enable ly.service
+sudo systemctl enable plexmediaserver
+sudo systemctl start plexmediaserver
+
+groupadd -r nordvpn
+gpasswd -a $USER nordvpn
+
+sudo systemctl enable nordvpnd.service
+sudo systemctl start nordvpnd.service
 
 echo
 echo "Done!"

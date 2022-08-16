@@ -1,0 +1,33 @@
+**** BEGIN LOGGING AT Mon Aug 15 15:56:10 2022
+
+Aug 15 15:56:10 *	Now talking on #archlinux-newbie
+Aug 15 15:56:10 *	Topic for #archlinux-newbie is: Welcome to the Arch Linux community. This is a space to learn and try new things, without fear of ridicule. | RULES: https://archlinux-newbie.github.io/rules/ | The Arch community expects users to do the research before asking questions, please check the wiki and news before posting here.
+Aug 15 15:56:10 *	Topic for #archlinux-newbie set by gehidore!~username@user/man (Tue Mar  1 21:08:14 2022)
+Aug 15 15:56:57 <DarrylTheFish>	hey guys! I'm trying to make the plex media server read my external hd with movies, but I read something about external drivers that are only allowed to be read by root. how do I change this and get the plex media server to read the movies from the external hard drive?
+Aug 15 15:57:42 <gehidore>	setup fstab options or use udisks
+Aug 15 16:02:33 <gehidore>	DarrylTheFish ^
+Aug 15 16:11:26 <DarrylTheFish>	 gehidore i got rw,relatime,user on my fstab
+Aug 15 16:11:54 <gehidore>	user should allow it to be mounted assuming you're referencing it correctly
+Aug 15 16:12:08 <gehidore>	you may need to alter permissions of the actual files / directories
+Aug 15 16:12:44 <DarrylTheFish>	oh let me try
+Aug 15 16:13:11 <gehidore>	so a user should be able to do mount /mountpoint and have it mount
+**** BEGIN LOGGING AT Mon Aug 15 21:37:53 2022
+
+Aug 15 21:37:53 *	Now talking on #archlinux-newbie
+Aug 15 21:37:53 *	Topic for #archlinux-newbie is: Welcome to the Arch Linux community. This is a space to learn and try new things, without fear of ridicule. | RULES: https://archlinux-newbie.github.io/rules/ | The Arch community expects users to do the research before asking questions, please check the wiki and news before posting here.
+Aug 15 21:37:53 *	Topic for #archlinux-newbie set by gehidore!~username@user/man (Tue Mar  1 21:08:14 2022)
+**** BEGIN LOGGING AT Mon Aug 15 23:25:44 2022
+
+Aug 15 23:25:44 *	Now talking on #archlinux-newbie
+Aug 15 23:25:44 *	Topic for #archlinux-newbie is: Welcome to the Arch Linux community. This is a space to learn and try new things, without fear of ridicule. | RULES: https://archlinux-newbie.github.io/rules/ | The Arch community expects users to do the research before asking questions, please check the wiki and news before posting here.
+Aug 15 23:25:44 *	Topic for #archlinux-newbie set by gehidore!~username@user/man (Tue Mar  1 21:08:14 2022)
+Aug 15 23:26:02 *	Laborratte6 (~Laborratt@port-92-196-36-46.dynamic.as20676.net) has joined
+Aug 15 23:26:45 *	Laborratte5 has quit (Ping timeout: 252 seconds)
+**** BEGIN LOGGING AT Tue Aug 16 10:53:52 2022
+
+Aug 16 10:53:52 *	Now talking on #archlinux-newbie
+Aug 16 10:53:52 *	Topic for #archlinux-newbie is: Welcome to the Arch Linux community. This is a space to learn and try new things, without fear of ridicule. | RULES: https://archlinux-newbie.github.io/rules/ | The Arch community expects users to do the research before asking questions, please check the wiki and news before posting here.
+Aug 16 10:53:52 *	Topic for #archlinux-newbie set by gehidore!~username@user/man (Tue Mar  1 21:08:14 2022)
+Aug 16 10:54:23 >NickServ<	identify ****
+Aug 16 10:54:23 -NickServ-	You are now identified for DarrylTheFish.
+Aug 16 10:54:23 -NickServ-	Last login from: ~DarrylThe@2804:d41:b66c:fc00:783a:1c12:b377:6d5b on Aug 16 02:34:38 2022 +0000.

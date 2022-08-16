@@ -19,11 +19,11 @@ echo
 PKGS=(
 
     # SYSTEM --------------------------------------------------------------
-
-   #'linux-lts'             # Long term support kernel
+    
+    'linux-headers'
+    #'linux-lts'             # Long term support kernel
     'base-devel'            # important
     'nautilus'              # file manager
-    'pulseaudio'
 
     # TERMINAL UTILITIES --------------------------------------------------
 
@@ -34,7 +34,7 @@ PKGS=(
     'elinks'                # Terminal based web browser
     'feh'                   # Terminal-based image viewer/manipulator
     'file-roller'           # Archive utility
-    'keepassxc'             # System password storage
+    'keepassxc'             # Password storage
     'gtop'                  # System monitoring via terminal
     'gufw'                  # Firewall manager
     'hardinfo'              # Hardware info app
@@ -58,14 +58,15 @@ PKGS=(
     'zsh-completions'       # Tab completion for ZSH
     'starship'              # Customizable prompt
     'github-cli'            # github cli helper
-    'bluetoothctl'	    # bluetooth
-    
-   # DISK UTILITIES ------------------------------------------------------
+    'bluez'		    # bluetooth protocol stack
+    'bluez-utils'	    # bluetooth ctl
+    'usbutils'		    # usb utilities 
+    'net-tools'
+	
+    # DISK UTILITIES ------------------------------------------------------
 
-    'autofs'                # Auto-mounter
     'exfat-utils'           # Mount exFat drives
     'gparted'               # Disk utility
-    'gnome-disks'           # Disk utility
     'ntfs-3g'               # Open source implementation of NTFS file system
     'parted'                # Disk utility
 
@@ -78,7 +79,7 @@ PKGS=(
     'polybar'               # Status Bar
     'qbittorrent'           # Torrent
     'font-manager'          # Font Manager
-
+    'papirus-icon-theme'
     # DEVELOPMENT ---------------------------------------------------------
     
     'vim'                   # Text editor
@@ -118,7 +119,9 @@ PKGS=(
     'simplescreenrecorder'  # Record your screen
     'vlc'                   # Video player
     'xfce4-screenshooter'   # Screen capture.
-
+    'pavucontrol'
+    'pulseaudio'
+    'alsa-utils' 
     # GRAPHICS AND DESIGN -------------------------------------------------
 
     'gcolor2'               # Colorpicker
@@ -167,6 +170,11 @@ PKGS=(
     'ttf-roboto'
     'ttf-roboto-mono'
 
+    # BLUETOOTH -----------------------------------------------------------
+    
+    'bluez'
+    'bluez-utils'
+
     # VIRTUALIZATION ------------------------------------------------------
 
     'virtualbox'
@@ -179,11 +187,11 @@ for PKG in "${PKGS[@]}"; do
     sudo pacman -S "$PKG" --noconfirm --needed
 done
 
-    sudo systemctl enable vboxservice.service --noconfirm --needed
+    sudo systemctl enable vboxservice.service
     
     modprobe btusb
-    systemctl enable bluetooth --noconfirm --needed
-    systemctl start bluetooth --noconfirm --needed
+    sudo systemctl enable bluetooth
+    sudo systemctl start bluetooth
 
 echo
 echo "Done!"
