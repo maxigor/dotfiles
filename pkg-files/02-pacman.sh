@@ -62,7 +62,7 @@ PKGS=(
     'bluez-utils'	    # bluetooth ctl
     'usbutils'		    # usb utilities 
     'net-tools'
-	
+    'openvpn'	
     # DISK UTILITIES ------------------------------------------------------
 
     'exfat-utils'           # Mount exFat drives
