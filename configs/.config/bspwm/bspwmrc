@@ -2,8 +2,8 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor DP-0 -d I II III IV V VI VII 
-bspc monitor HDMI-0 -d VIII IX X
+bspc monitor DP-1 -d I II III IV V VI VII 
+bspc monitor HDMI-1 -d VIII IX X
 
 bspc config border_radius		    3
 bspc config border_width         	    3
@@ -32,8 +32,8 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 ${HOME}/.config/.fehbg
-xrandr --output DP-0 --primary --set TearFree on
-xrandr --output HDMI-0 --rotate right
+xrandr --output DP-1 --primary --set TearFree on
+xrandr --output HDMI-1 --rotate right
 xrdb ${HOME}/.Xresources
 $HOME/.config/polybar/launch.sh
 picom --no-vsync --no-use-damage
