@@ -22,6 +22,7 @@ cp -r /home/max/dotfiles/configs/.config /home/max/
 cp /home/max/dotfiles/configs/.Xresources /home/max/
 cp /home/max/dotfiles/configs/.xinitrc /home/max/
 cp /home/max/dotfiles/configs/.zshrc /home/max/
+sudo cp /home/max/dotfiles/configs/fstab /etc/
 
 chmod +x /home/max/.config/bspwm/bspwmrc
 chmod +x /home/max/.config/sxhkd/sxhkdrc
