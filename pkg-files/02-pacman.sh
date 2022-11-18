@@ -20,8 +20,8 @@ PKGS=(
 
     # SYSTEM --------------------------------------------------------------
     
-    'linux-headers'
-    #'linux-lts'             # Long term support kernel
+    'linux-lts-headers'
+    'linux-lts'             # Long term support kernel
     'base-devel'            # important
     'nautilus'              # file manager
 
@@ -63,6 +63,7 @@ PKGS=(
     'usbutils'		    # usb utilities 
     'net-tools'
     'openvpn'	
+
     # DISK UTILITIES ------------------------------------------------------
 
     'exfat-utils'           # Mount exFat drives
@@ -80,6 +81,7 @@ PKGS=(
     'qbittorrent'           # Torrent
     'font-manager'          # Font Manager
     'papirus-icon-theme'
+
     # DEVELOPMENT ---------------------------------------------------------
     
     'vim'                   # Text editor
@@ -92,16 +94,16 @@ PKGS=(
     'gcc'                   # C/C++ compiler
     'glibc'                 # C libraries
     'mariadb'               # Drop-in replacement for MySQL
-    #'meld'                  # File/directory comparison
+     #'meld'                  # File/directory comparison
     'nodejs'                # Javascript runtime environment
     'npm'                   # Node package manager
     'php'                   # Web application scripting language
     'php-apache'            # Apache PHP driver
-    #'postfix'              # SMTP mail server
+     #'postfix'              # SMTP mail server
     'python'                # Scripting language
     'python-pip'
-    #'qtcreator'             # C++ cross platform IDE
-    #'qt5-examples'          # Project demos for Qt
+     #'qtcreator'             # C++ cross platform IDE
+     #'qt5-examples'          # Project demos for Qt
 
     # WEB TOOLS -----------------------------------------------------------
 
@@ -123,6 +125,7 @@ PKGS=(
     'pavucontrol'
     'pulseaudio'
     'alsa-utils' 
+    
     # GRAPHICS AND DESIGN -------------------------------------------------
 
     'gcolor2'               # Colorpicker
