@@ -107,6 +107,7 @@ PKGS=(
 
     'firefox'               # Web browser
     'filezilla'             # FTP Client
+    'thunderbird'
 
     # COMMUNICATIONS ------------------------------------------------------
 
@@ -193,6 +194,7 @@ done
     sudo systemctl enable bluetooth
     sudo systemctl start bluetooth
 
+    usermod -aG nordvpn $USER
 echo
 echo "Done!"
 echo
