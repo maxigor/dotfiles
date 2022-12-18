@@ -40,6 +40,7 @@ PKGS=(
     'python-xdg'
     'moreutils'
     'plank'
+    'upscayl-bin'               # AI Image Upscaler
   
     # COMMUNICATIONS ------------------------------------------------------
 
@@ -47,8 +48,9 @@ PKGS=(
 
     # THEMES --------------------------------------------------------------
 
-    'autojump'                      # Zsh plugin
-    
+    'autojump'                  # Zsh plugin
+    'plymouth'                  # graphical boot process
+
     # WIFI TP-LINK --------------------------------------------------------------
 
     'rtl88xxau-aircrack-dkms-git'
@@ -65,6 +67,8 @@ PKGS=(
     'plex-media-server'
     'nordvpn-bin'
     'spotify'
+    'obinskit'
+
     # CONTROL -----------------------------------------------------------
 
     'backlight_control'
