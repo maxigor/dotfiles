@@ -24,6 +24,17 @@ PKGS=(
     'linux-lts'             # Long term support kernel
     'base-devel'            # important
     'nautilus'              # file manager
+    'bspwm'
+    'sxhkd'
+    
+    # NVIDIA STUFF --------------------------------------------------------
+    
+    'nvidia'
+    'nvidia-lts'
+    'nvidia-settings'
+    'nvidia-utils'
+    'xorg-server-devel'
+    'opencl-nvidia'
 
     # TERMINAL UTILITIES --------------------------------------------------
 
@@ -58,11 +69,12 @@ PKGS=(
     'zsh-completions'       # Tab completion for ZSH
     'starship'              # Customizable prompt
     'github-cli'            # github cli helper
-    'bluez'		    # bluetooth protocol stack
-    'bluez-utils'	    # bluetooth ctl
-    'usbutils'		    # usb utilities 
+    'bluez'		            # bluetooth protocol stack
+    'bluez-utils'	        # bluetooth ctl
+    'usbutils'		        # usb utilities 
     'net-tools'
-    'openvpn'	
+    'openvpn'	            # openvpn !!!
+    
 
     # DISK UTILITIES ------------------------------------------------------
 
@@ -81,6 +93,7 @@ PKGS=(
     'qbittorrent'           # Torrent
     'font-manager'          # Font Manager
     'papirus-icon-theme'
+    'flameshot'
 
     # DEVELOPMENT ---------------------------------------------------------
     
@@ -94,16 +107,17 @@ PKGS=(
     'gcc'                   # C/C++ compiler
     'glibc'                 # C libraries
     'mariadb'               # Drop-in replacement for MySQL
-     #'meld'                  # File/directory comparison
+     #'meld'                # File/directory comparison
     'nodejs'                # Javascript runtime environment
     'npm'                   # Node package manager
     'php'                   # Web application scripting language
     'php-apache'            # Apache PHP driver
-     #'postfix'              # SMTP mail server
+     #'postfix'             # SMTP mail server
     'python'                # Scripting language
     'python-pip'
-     #'qtcreator'             # C++ cross platform IDE
-     #'qt5-examples'          # Project demos for Qt
+     #'qtcreator'           # C++ cross platform IDE
+     #'qt5-examples'        # Project demos for Qt
+     'aws-cli'
 
     # WEB TOOLS -----------------------------------------------------------
 
