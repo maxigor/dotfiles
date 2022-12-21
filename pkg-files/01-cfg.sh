@@ -24,4 +24,4 @@ cp /home/max/dotfiles/configs/.zshrc /home/max/
 git config --global user.email "maxigor.ferreira@gmail.com"
 git config --global user.name "Max"
 
-
+sh ./02-pacman.sh

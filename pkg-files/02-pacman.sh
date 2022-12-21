@@ -212,3 +212,5 @@ done
 echo
 echo "Done!"
 echo
+
+sh ./03-paru.sh
