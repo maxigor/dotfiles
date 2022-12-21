@@ -2,8 +2,8 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor DP-1 -d IV V VI VII VIII IX X 
-bspc monitor HDMI-1 -d I II III
+bspc monitor DP-0 -d IV V VI VII VIII IX X 
+bspc monitor HDMI-0 -d I II III
 
 bspc config border_radius		    3
 bspc config border_width         	    3
@@ -21,7 +21,7 @@ bspc rule -a Alacritty desktop='^1' follow=on focus=on
 bspc rule -a firefox desktop='^10' follow=on focus=on
 bspc rule -a discord desktop='^3' follow=on
 bspc rule -a spotify desktop='^3' follow=on
-bspc rule -a thunderbird desktop='^2' follow=on
+bspc rule -a thunderbird desktop='^2'
 bspc rule -a KeePassXC state=floating
 bspc rule -a org.gnome.Nautilus state=floating
 bspc rule -a qbittorrent desktop="^2"
@@ -32,8 +32,9 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 ${HOME}/.config/.fehbg
-xrandr --output DP-1 --primary --set TearFree on
-xrandr --output HDMI-1 --rotate right
+xrandr --output DP-0 --primary --set TearFree on
+xrandr --output HDMI-0 --rotate right
 xrdb ${HOME}/.Xresources
 $HOME/.config/polybar/launch.sh
+$HOME/.config/bspwm/autostart.sh
 picom --experimental-backends
