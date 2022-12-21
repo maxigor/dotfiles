@@ -62,11 +62,10 @@ PKGS=(
     'librewolf-bin'
     'tor-browser'
     'rpi-imager'
-    'snapd'
+    'spotifyd'
     'shell-color-scripts'
     'plex-media-server'
     'nordvpn-bin'
-    'spotify'
     'obinskit'
 
     # CONTROL -----------------------------------------------------------
@@ -96,8 +95,7 @@ sudo systemctl enable plexmediaserver
 sudo systemctl start plexmediaserver
 
 groupadd -r nordvpn
-gpasswd -a $USER nordvpn
-
+sudo usermod -aG nordvpn $USER
 sudo systemctl enable nordvpnd.service
 sudo systemctl start nordvpnd.service
 

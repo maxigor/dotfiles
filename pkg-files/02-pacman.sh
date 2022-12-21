@@ -24,16 +24,17 @@ PKGS=(
     'linux-lts'             # Long term support kernel
     'base-devel'            # important
     'nautilus'              # file manager
-    'bspwm'
-    'sxhkd'
+    'bspwm'                 # Window Manager
+    'sxhkd'                 # Hotkey Daemon
     
-    # NVIDIA STUFF --------------------------------------------------------
+    # VIDEO STUFF --------------------------------------------------------
     
     'nvidia'
-    'nvidia-lts'
     'nvidia-settings'
     'nvidia-utils'
     'xorg-server-devel'
+    'xorg'
+    'xorg-xinit'
     'opencl-nvidia'
 
     # TERMINAL UTILITIES --------------------------------------------------
@@ -69,11 +70,9 @@ PKGS=(
     'zsh-completions'       # Tab completion for ZSH
     'starship'              # Customizable prompt
     'github-cli'            # github cli helper
-    'bluez'		            # bluetooth protocol stack
-    'bluez-utils'	        # bluetooth ctl
     'usbutils'		        # usb utilities 
     'net-tools'
-    'openvpn'	            # openvpn !!!
+    'openvpn'	            # OpenVPN
     
 
     # DISK UTILITIES ------------------------------------------------------
@@ -85,7 +84,6 @@ PKGS=(
 
     # GENERAL UTILITIES ---------------------------------------------------
 
-    'catfish'               # Filesystem search
     'nemo'                  # Filesystem browser
     'veracrypt'             # Disc encryption utility
     'variety'               # Wallpaper changer
@@ -93,8 +91,14 @@ PKGS=(
     'qbittorrent'           # Torrent
     'font-manager'          # Font Manager
     'papirus-icon-theme'
-    'flameshot'
-
+    'flameshot'             # Screenshot
+    'rofi'
+    'plank'
+    'dunst'
+    'jgmenu'
+    'starship'
+    'exa'
+    
     # DEVELOPMENT ---------------------------------------------------------
     
     'vim'                   # Text editor
@@ -107,16 +111,16 @@ PKGS=(
     'gcc'                   # C/C++ compiler
     'glibc'                 # C libraries
     'mariadb'               # Drop-in replacement for MySQL
-     #'meld'                # File/directory comparison
+    #'meld'                # File/directory comparison
     'nodejs'                # Javascript runtime environment
     'npm'                   # Node package manager
-    'php'                   # Web application scripting language
-    'php-apache'            # Apache PHP driver
-     #'postfix'             # SMTP mail server
+    #'php'                   # Web application scripting language
+    #'php-apache'            # Apache PHP driver
+    #'postfix'             # SMTP mail server
     'python'                # Scripting language
     'python-pip'
-     #'qtcreator'           # C++ cross platform IDE
-     #'qt5-examples'        # Project demos for Qt
+    #'qtcreator'           # C++ cross platform IDE
+    #'qt5-examples'        # Project demos for Qt
      'aws-cli'
 
     # WEB TOOLS -----------------------------------------------------------
@@ -132,10 +136,8 @@ PKGS=(
 
     # MEDIA ---------------------------------------------------------------
 
-    'lollypop'              # Music player
     'simplescreenrecorder'  # Record your screen
     'vlc'                   # Video player
-    'xfce4-screenshooter'   # Screen capture.
     'pavucontrol'
     'pulseaudio'
     'alsa-utils' 
@@ -175,12 +177,7 @@ PKGS=(
     'hunspell-en'           # English spellcheck library
     'libreoffice-fresh'     # Libre office with extra features
     'xpdf'                  # PDF viewer
-    'rofi'
-    'plank'
-    'dunst'
-    'jgmenu'
-    'starship'
-    'exa'
+  
 
     # FONTS ---------------------------------------------------------------
 

@@ -13,8 +13,7 @@
 #-------------------------------------------------------------------------
 
     PKGS=(
-	'rust-nightly-bin'
-    'gtk3'
+	'gtk3'
     'gtk-engines'
     'gtk-engine-murrine'
 	'picom-pijulius-git'    
@@ -24,15 +23,7 @@
     	paru -S $PKG
     done
 
-    # EWW -----------------------------------------------------------------
-    cd /home/max/Downloads
-    git clone https://github.com/elkowar/eww.git
-    cd eww
-    cargo build --release -j $(nproc)
-    cd target/release
-    sudo mv eww /usr/bin/eww
-
-    # XQP -----------------------------------------------------------------
+      # XQP -----------------------------------------------------------------
     cd /home/max/Downloads
     git clone https://github.com/baskerville/xqp.git
     cd xqp
@@ -49,5 +40,7 @@
     sudo usermod -aG adm $USER
 
     # FONTS INSTALL ------------------------------------------------------
-    sudo cp -r /home/max/dotfiles/configs/.fonts/* /usr/share/fonts/TTF
-    sudo fc-cache -fv
+    sudo cp -r /home/max/dotfiles/configs/.fonts/* /usr/share/fonts/TTF sudo fc-cache -fv 
+
+    # NVIDIA XORG FILE ---------------------------------------------------- 
+    sudo cp /home/max/dotfiles/configs/20-nvidia.conf /etc/X11/xorg.conf.d/
