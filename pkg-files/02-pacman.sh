@@ -119,9 +119,9 @@ PKGS=(
     #'postfix'             # SMTP mail server
     'python'                # Scripting language
     'python-pip'
-    #'qtcreator'           # C++ cross platform IDE
-    #'qt5-examples'        # Project demos for Qt
-     'aws-cli'
+    'qtcreator'           # C++ cross platform IDE
+    'qt5-examples'        # Project demos for Qt
+    'aws-cli'
 
     # WEB TOOLS -----------------------------------------------------------
 
