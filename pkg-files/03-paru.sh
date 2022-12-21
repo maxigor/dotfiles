@@ -98,6 +98,7 @@ groupadd -r nordvpn
 sudo usermod -aG nordvpn $USER
 sudo systemctl enable nordvpnd.service
 sudo systemctl start nordvpnd.service
+sudo cp /home/max/dotfiles/configs/config.ini /etc/ly/
 
 echo
 echo "Done!"
