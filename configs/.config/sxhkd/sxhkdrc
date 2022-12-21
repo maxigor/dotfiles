@@ -17,6 +17,8 @@ super + Escape
 #
 # bspwm hotkeys
 #
+super + p
+    flameshot gui
 
 super + alt + {q,r}
 	bspc {quit,wm -r}
