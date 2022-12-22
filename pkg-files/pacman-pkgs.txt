@@ -1,123 +1,123 @@
-mesa
+linux-lts-headers
+linux-lts             
+base-devel            
+nautilus              
+bspwm                 
+sxhkd                 
+
+
+nvidia
+nvidia-settings
+nvidia-utils
+xorg-server-devel
 xorg
-xorg-server
-xorg-apps
-xorg-drivers
-xorg-xkill
 xorg-xinit
-xterm
-binutils
-dosfstools
-linux-headers
-noto-fonts-emoji
-usbutils
-xdg-user-dirs
+opencl-nvidia
 
 
-
-bspwm
-sxhkd
-base-devel
-nautilus
-
-
-
-bash-completion
-bc
-bleachbit
-curl
-elinks
-feh
+bash-completion       
+bc                    
+bleachbit             
+curl                  
+elinks                
+feh                   
 file-roller           
-gtop
-gufw
-htop
-jq
-jshon
+keepassxc             
+gtop                  
+gufw                  
+hardinfo              
+htop                  
+inxi                  
+jq                    
+jshon                 
 neofetch              
-ntp
+ntp                   
 openssh               
-rsync
+rsync                 
 speedtest-cli         
 terminus-font         
-unrar
-unzip
-wget
+unrar                 
+unzip                 
+wget                  
 alacritty             
 zenity                
-zip
-zsh
+zip                   
+zsh                   
 zsh-completions       
 starship              
 github-cli            
-   
+usbutils		        
+net-tools
+openvpn	            
 
 
-autofs                
+
 exfat-utils           
 gparted               
-gnome-disks           
 ntfs-3g               
 parted                
 
 
-
-catfish               
-nemo
+nemo                  
 veracrypt             
 variety               
 polybar               
 qbittorrent           
 font-manager          
+papirus-icon-theme
+flameshot             
+rofi
+plank
+dunst
+jgmenu
+starship
+exa
 
 
-    
-vim
-neovim
-apache
-clang
-cmake
+vim                   
+neovim                
+apache                
+clang                 
+cmake                 
 electron              
-git
-gcc
-glibc                
-mariadb              
-nodejs               
-npm
-php
-php-apache            
+git                   
+gcc                   
+glibc                 
+mariadb               
+meld                
+nodejs                
+npm                   
+postfix             
 python                
 python-pip
-#qtcreator            
-#qt5-examples         
+qtcreator           
+qt5-examples        
+aws-cli
 
 
-
-firefox              
-filezilla           
-
+firefox               
+filezilla             
+thunderbird
 
 
 hexchat               
-irssi
+irssi                 
 
 
-
-lollypop              
 simplescreenrecorder  
-vlc
-xfce4-screenshooter  
+vlc                   
+pavucontrol
+pulseaudio
+alsa-utils 
 
 
-
-gcolor2              
-gimp
+gcolor2               
+gimp                  
 inkscape              
 imagemagick           
 nomacs                
-pngcrush             
+pngcrush              
 ristretto             
-    
 
 
 libconfig
@@ -141,13 +141,8 @@ galculator
 hunspell              
 hunspell-en           
 libreoffice-fresh     
-xpdf
-rofi
-plank
-dunst
-jgmenu
-starship
-exa
+xpdf                  
+
 
 
 ttf-font-awesome
@@ -155,18 +150,11 @@ ttf-roboto
 ttf-roboto-mono
 
 
+bluez
+bluez-utils
+
+
 virtualbox
 virtualbox-guest-utils
 virtualbox-host-modules-arch
-
-
-
-
-
-
-
-
-
-
-
 
